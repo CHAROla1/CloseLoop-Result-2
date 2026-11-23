@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>天元 闭环评测报告</title>
+<style>
+:root{--bg:#0b0f14;--panel:#121923;--line:#263242;--text:#e7edf5;--muted:#91a0b5;--accent:#4ecdc4;--warn:#ffb454;--bad:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-apple-system,"Noto Sans SC",sans-serif}
+header{position:sticky;top:0;z-index:5;display:flex;gap:18px;align-items:center;padding:14px 22px;background:#0b0f14ee;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+h1{font-size:18px;margin:0}select,input,button{background:#17202c;color:var(--text);border:1px solid #314055;border-radius:7px;padding:7px 10px}button{cursor:pointer}.grow{flex:1}.meta{color:var(--muted)}
+main{padding:16px;display:grid;grid-template-columns:minmax(0,2fr) minmax(300px,1fr);gap:14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:14px;min-width:0}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:10px}.video-card{position:relative;background:#05070a;border-radius:8px;overflow:hidden}.video-card video{display:block;width:100%;max-height:58vh;background:#000}.label{position:absolute;left:8px;top:8px;background:#000b;padding:4px 8px;border-radius:5px}
+.transport{grid-column:1/-1;display:grid;grid-template-columns:auto auto auto 1fr auto;gap:9px;align-items:center}.transport input{width:100%;accent-color:var(--accent)}
+.reasoning{white-space:pre-wrap;min-height:160px;max-height:44vh;overflow:auto;font-size:15px}.decision-list{margin-top:12px;max-height:260px;overflow:auto}.decision{padding:8px;border-top:1px solid var(--line);cursor:pointer;color:var(--muted)}.decision:hover{background:#172231;color:var(--text)}.decision.active{background:#124c50;color:#d8ffff;box-shadow:inset 3px 0 var(--accent)}
+.metrics{grid-column:1/-1}.metrics-head{display:flex;gap:10px;align-items:center;margin-bottom:12px}.metrics-head input{min-width:260px}.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:10px}
+.metric{background:#0e141d;border:1px solid var(--line);border-radius:8px;padding:10px}.metric-title{display:flex;justify-content:space-between}.value{color:var(--accent);font-variant-numeric:tabular-nums}.metric svg{width:100%;height:150px;display:block}.gridline{stroke:#243040;stroke-width:1}.curve{fill:none;stroke:var(--accent);stroke-width:2}.invalid{fill:none;stroke:#607086;stroke-width:2;stroke-dasharray:3 4}.cursor{stroke:var(--warn);stroke-width:2}.dot{fill:var(--warn)}
+.empty{color:var(--muted);padding:30px;text-align:center}@media(max-width:900px){main{grid-template-columns:1fr}.transport,.metrics{grid-column:1}.metric-grid{grid-template-columns:1fr}.videos{grid-template-columns:1fr}}
+.main-view{grid-column:1;grid-row:1 / 3;align-self:start}.bev-panel{grid-column:2;grid-row:1}.vlm-panel{grid-column:2;grid-row:2}.panel-title{font-size:18px;margin:0 0 12px}.main-view .videos{display:block}.main-view video{max-height:none;aspect-ratio:16/9;object-fit:contain}.bev-panel video{max-height:32vh;object-fit:contain}.reasoning{font-size:21px;line-height:1.7;min-height:220px;max-height:42vh;overflow-wrap:anywhere}.decision-list{max-height:160px;font-size:16px}main{grid-template-columns:minmax(0,3fr) minmax(340px,1fr);align-items:start}header select{min-width:0;max-width:40vw}@media(max-width:1000px){main{grid-template-columns:1fr}.main-view,.bev-panel,.vlm-panel{grid-column:1;grid-row:auto}.reasoning{font-size:20px}.transport{grid-template-columns:auto auto auto minmax(60px,1fr) auto}}
+/* Reserve room for the transport and a complete metric row on desktop. */
+@media(min-width:1001px){main{--stage:clamp(260px,calc(100dvh - 370px),650px);grid-template-rows:calc(var(--stage)*.44) calc(var(--stage)*.56 - 14px) auto auto}.main-view{height:var(--stage)}.bev-panel,.vlm-panel{height:100%;overflow:hidden}.main-view .videos{height:calc(100% - 36px)}.main-view .video-card,.main-view video{height:100%;aspect-ratio:auto;max-height:100%}.bev-panel #bev{height:calc(100% - 36px)}.bev-panel .video-card,.bev-panel video{height:100%;max-height:100%;object-fit:contain}.vlm-panel{display:flex;flex-direction:column}.vlm-panel .reasoning{min-height:0;max-height:none;flex:1;font-size:20px}.decision-list{max-height:52px;flex-shrink:0}.metric svg{height:125px}}
+.view-picker{position:absolute;top:10px;left:10px;z-index:2;max-width:85%;background:#101923ed}.main-view .video-card{position:relative}
+/* Modules reflow without overlapping when resized. */
+main{display:flex;flex-wrap:wrap;align-items:flex-start;gap:14px}
+main>.panel{grid-area:auto;position:relative;min-width:0}
+main>.main-view{width:calc(60% - 10px);height:clamp(260px,calc(100dvh - 370px),650px)}
+main>.bev-panel,main>.vlm-panel{width:calc(20% - 9px);height:clamp(260px,calc(100dvh - 370px),650px)}
+main>.transport,main>.metrics{width:100%}
+.resizable{container-type:inline-size;overflow:hidden;padding-bottom:24px;max-width:100%}
+.resizable .panel-title{font-size:clamp(15px,4cqw,21px)}
+.resizable #videos,.resizable #bev{height:calc(100% - 38px);min-height:0}
+.resizable .video-card,.resizable video{height:100%;max-height:100%;width:100%;object-fit:contain;aspect-ratio:auto}
+.vlm-panel.resizable{display:flex;flex-direction:column}
+.resizable .reasoning{flex:1;min-height:0;max-height:none;font-size:clamp(16px,4.8cqw,28px);line-height:1.6;overflow:auto}
+.resizable .decision-list{max-height:25%;flex-shrink:0;font-size:clamp(12px,3.5cqw,18px)}
+.metrics.resizable{overflow:auto}.metrics-head{flex-wrap:wrap}.metrics-head input{min-width:0;max-width:100%}
+.metric-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}.metric svg{height:clamp(110px,15cqw,190px)}
+.resize-handle{position:absolute;right:2px;bottom:2px;width:24px;height:24px;cursor:nwse-resize;touch-action:none;padding:0;color:var(--accent);z-index:4;font-size:18px}
+body.resizing{user-select:none;cursor:nwse-resize}header{flex-wrap:wrap}
+@media(max-width:1000px){main>.main-view{width:100%}main>.bev-panel,main>.vlm-panel{width:calc(50% - 7px)}}
+@media(max-width:600px){main>.bev-panel,main>.vlm-panel{width:100%}}
+.export-progress{display:inline-flex;align-items:center;gap:8px}.export-progress[hidden]{display:none}.export-progress progress{width:220px;max-width:40vw;height:14px;accent-color:var(--accent)}.export-progress span{min-width:38px;color:var(--accent);font-variant-numeric:tabular-nums}
+</style></head><body>
+<header><h1>天元 闭环评测</h1><span id="summary" class="meta"></span><span class="grow"></span><span id="clock">00:00.000</span></header>
+<main><section class="panel main-view"><h2 class="panel-title">多视角主画面</h2><div id="videos" class="videos"></div></section>
+<section class="panel bev-panel"><h2 class="panel-title">BEV 鸟瞰视图</h2><div id="bev"></div></section>
+<aside class="panel vlm-panel"><h2 class="panel-title">VLM 当前决策</h2><div id="reasoning" class="reasoning empty">当前时间没有 VLM 文字</div><div id="decisions" class="decision-list"></div></aside>
+<section class="panel transport"><button id="play">▶</button><button id="prev">−0.1s</button><button id="next">+0.1s</button><input id="seek" type="range" min="0" max="1" step="0.001" value="0"><select id="speed"><option>.5</option><option selected>1</option><option>1.5</option><option>2</option></select></section>
+<section class="panel metrics"><div class="metrics-head"><b>逐时刻指标</b><input id="filter" placeholder="搜索指标名称"><span id="metricCount" class="meta"></span></div><div id="metricGrid" class="metric-grid"></div></section></main>
+<script>
+const S={manifest:null,data:null,videos:[],playing:false,t:0,duration:0,raf:0};
+const $=s=>document.querySelector(s), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=t=>`${String(Math.floor(t/60)).padStart(2,'0')}:${(t%60).toFixed(3).padStart(6,'0')}`;
+async function init(){S.manifest=await fetch('manifest.json',{cache:'no-store'}).then(r=>r.json());bind();await load(0)}
+function bind(){$('#play').onclick=toggle;$('#prev').onclick=()=>seek(S.t-.1);$('#next').onclick=()=>seek(S.t+.1);$('#seek').oninput=e=>seek(+e.target.value);$('#speed').onchange=e=>S.videos.forEach(v=>v.playbackRate=+e.target.value);$('#filter').oninput=renderMetrics}
+async function load(i){pause();const r=S.manifest.rollouts[i];S.currentDecision=undefined;S.data=await fetch(r.data).then(x=>x.json());S.duration=S.data.duration_s;S.t=0;$('#seek').max=S.duration;$('#summary').textContent=(S.data.partial_result?'失败 · 部分结果 · ':'')+`${S.data.metrics.length} 指标 · ${S.data.videos.length} 视图 · ${S.data.reasoning.length} 条 VLM 决策`;renderVideos();renderDecisions();renderMetrics();update()}
+function renderVideos(){const card=v=>`<div class="video-card"><video preload="metadata" playsinline src="${esc(encodeURI(v.src))}"></video></div>`;const isBev=v=>v.label.toUpperCase()==='BEV';S.views=S.data.videos.filter(v=>!isBev(v));$('#videos').innerHTML=S.views.length?card(S.views[0]):'<div class="empty">没有摄像机视频</div>';if(S.views.length){const picker=document.createElement('select');picker.className='view-picker';picker.setAttribute('aria-label','选择摄像机视角');picker.innerHTML=S.views.map((v,i)=>`<option value="${i}">${esc(v.label==='camera_surround'?'全部视角':v.label)}</option>`).join('');picker.onchange=()=>switchView(+picker.value);$('#videos .video-card').appendChild(picker)}$('#bev').innerHTML=S.data.videos.filter(isBev).map(card).join('')||'<div class="empty">没有 BEV 视频</div>';S.videos=[...document.querySelectorAll('#videos video, #bev video')];S.videos.forEach(v=>{v.muted=true})}
+function switchView(index){const video=$('#videos video'),time=S.t,resume=S.playing;pause();video.onseeked=null;video.onloadedmetadata=()=>{video.onloadedmetadata=null;const target=Math.min(time,video.duration);S.t=time;update(false);const ready=()=>{video.onseeked=null;if(resume&&!S.playing)toggle()};if(Math.abs(video.currentTime-target)<.001)ready();else{video.onseeked=ready;video.currentTime=target}};video.src=S.views[index].src;video.load()}
+function renderDecisions(){$('#decisions').innerHTML=S.data.reasoning.map((r,i)=>`<div class="decision" data-i="${i}" onclick="seek(${r.t_s})"><b>${fmt(r.t_s)}</b> ${esc(r.text.slice(0,100))}</div>`).join('')}
+function metricAt(m,t){let lo=0,hi=m.t.length-1;if(hi<0||t<m.t[0])return null;while(lo<hi){const mid=Math.ceil((lo+hi)/2);if(m.t[mid]<=t)lo=mid;else hi=mid-1}return {v:m.v[lo],ok:m.valid[lo],i:lo}}
+function renderMetrics(){const q=$('#filter').value.toLowerCase();const ms=S.data.metrics.filter(m=>m.name.toLowerCase().includes(q));$('#metricCount').textContent=`${ms.length}/${S.data.metrics.length}`;$('#metricGrid').innerHTML=ms.map((m,i)=>chart(m,i)).join('');updateCharts()}
+function chart(m,i){const W=560,H=150,p=22;let vals=m.v.filter(Number.isFinite),mn=Math.min(...vals),mx=Math.max(...vals);if(!isFinite(mn)){mn=0;mx=1}if(mx===mn){mx+=.5;mn-=.5}const x=t=>p+(W-2*p)*t/Math.max(S.duration,.001),y=v=>H-p-(H-2*p)*(v-mn)/(mx-mn);let good='',bad='';for(let j=0;j<m.t.length;j++){const cmd=(j?'L':'M')+x(m.t[j]).toFixed(1)+','+y(m.v[j]).toFixed(1)+' ';if(m.valid[j])good+=cmd;else bad+=cmd}return `<div class="metric" data-name="${esc(m.name)}"><div class="metric-title"><b>${esc(m.name)}</b><span class="value">—</span></div><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" onclick="seek(Math.max(0,Math.min(S.duration,(event.offsetX/event.currentTarget.clientWidth)*S.duration)))"><line class="gridline" x1="${p}" y1="${H-p}" x2="${W-p}" y2="${H-p}"/><path class="invalid" d="${bad}"/><path class="curve" d="${good}"/><line class="cursor" y1="${p}" y2="${H-p}"/><circle class="dot" r="4"/></svg><span class="meta">${mn.toPrecision(4)} … ${mx.toPrecision(4)} · ${esc(m.aggregation)}</span></div>`}
+function updateCharts(){document.querySelectorAll('.metric').forEach(el=>{const m=S.data.metrics.find(x=>x.name===el.dataset.name),cur=metricAt(m,S.t),svg=el.querySelector('svg'),W=560,H=150,p=22,x=p+(W-2*p)*S.t/Math.max(S.duration,.001);el.querySelector('.cursor').setAttribute('x1',x);el.querySelector('.cursor').setAttribute('x2',x);el.querySelector('.value').textContent=cur?(cur.ok?Number(cur.v).toPrecision(6):`${Number(cur.v).toPrecision(6)} (无效)`):'—';const vals=m.v.filter(Number.isFinite),mn=Math.min(...vals),mx0=Math.max(...vals),mx=mx0===mn?mx0+.5:mx0,min=mx0===mn?mn-.5:mn;let y=cur?H-p-(H-2*p)*(cur.v-min)/(mx-min):H-p;el.querySelector('.dot').setAttribute('cx',x);el.querySelector('.dot').setAttribute('cy',y);el.querySelector('.dot').style.display=cur?'':'none'})}
+function reasoningAt(t){let r=null,i=-1;for(let j=0;j<S.data.reasoning.length;j++){if(S.data.reasoning[j].t_s<=t){r=S.data.reasoning[j];i=j}else break}return [r,i]}
+function update(sync=true){$('#clock').textContent=`${fmt(S.t)} / ${fmt(S.duration)}`;$('#seek').value=S.t;if(sync)S.videos.forEach(v=>{if(Math.abs(v.currentTime-S.t)>.12)v.currentTime=Math.min(S.t,v.duration||S.t)});const[r,i]=reasoningAt(S.t),box=$('#reasoning');if(S.currentDecision!==i){S.currentDecision=i;box.textContent=r?r.text:'当前时间没有 VLM 文字';box.classList.toggle('empty',!r);box.scrollTop=0;document.querySelectorAll('.decision').forEach((e,j)=>{e.classList.toggle('active',j===i);if(j===i)e.setAttribute('aria-current','true');else e.removeAttribute('aria-current')});const list=$('#decisions'),item=list.children[i];if(item){const itemRect=item.getBoundingClientRect(),listRect=list.getBoundingClientRect();list.scrollTop+=itemRect.top-listRect.top-(list.clientHeight-itemRect.height)/2}};updateCharts()}
+function seek(t){S.t=Math.max(0,Math.min(S.duration,t));update()}
+function toggle(){if(S.playing)pause();else{if(S.t>=S.duration-.001)seek(0);S.playing=true;$('#play').textContent='❚❚';S.videos.forEach(v=>{v.playbackRate=+$('#speed').value;v.play().catch(()=>{})});let last=performance.now();const tick=now=>{if(!S.playing)return;S.t+=((now-last)/1000)*(+$('#speed').value);last=now;if(S.t>=S.duration){seek(S.duration);pause();return}update();S.raf=requestAnimationFrame(tick)};S.raf=requestAnimationFrame(tick)}}
+function pause(){S.playing=false;cancelAnimationFrame(S.raf);S.videos.forEach(v=>v.pause());$('#play').textContent='▶'}
+function initResize(){
+ const storageKey='alpasim-panel-layout-v1';
+ const panels=[...document.querySelectorAll('.main-view,.bev-panel,.vlm-panel,.metrics')];
+ let saved={};try{saved=JSON.parse(localStorage.getItem(storageKey)||'{}')}catch(e){}
+ const save=()=>{const state={};panels.forEach((p,i)=>{if(p.dataset.custom)state[i]={width:p.style.width,height:p.style.height}});try{localStorage.setItem(storageKey,JSON.stringify(state))}catch(e){}};
+ panels.forEach((p,i)=>{
+  p.classList.add('resizable');const old=saved?.[i];if(old&&/^\d+(\.\d+)?%$/.test(old.width)&&/^\d+(\.\d+)?px$/.test(old.height)){p.style.width=old.width;p.style.height=old.height;p.dataset.custom='1'}
+  const handle=document.createElement('button');handle.className='resize-handle';handle.textContent='◢';handle.title='拖拽调整大小；方向键微调，Shift 加速';handle.setAttribute('aria-label','调整'+(p.querySelector('h2')?.textContent||'指标区')+'大小');p.appendChild(handle);
+  const resize=(w,h)=>{const available=document.querySelector('main').clientWidth-32;p.style.width=(Math.min(available,Math.max(Math.min(240,available),w))/available*100)+'%';p.style.height=Math.max(180,h)+'px';p.dataset.custom='1'};
+  handle.onpointerdown=e=>{if(e.button!==0)return;e.preventDefault();const x=e.clientX,y=e.clientY,w=p.offsetWidth,h=p.offsetHeight;handle.setPointerCapture(e.pointerId);document.body.classList.add('resizing');handle.onpointermove=ev=>resize(w+ev.clientX-x,h+ev.clientY-y);const finish=()=>{handle.onpointermove=null;document.body.classList.remove('resizing');save()};handle.onpointerup=finish;handle.onpointercancel=finish;handle.onlostpointercapture=finish};
+  handle.onkeydown=e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();const step=e.shiftKey?40:10;resize(p.offsetWidth+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),p.offsetHeight+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0));save()};
+ });
+ const reset=document.createElement('button');reset.textContent='重置布局';reset.onclick=()=>{panels.forEach(p=>{p.style.width='';p.style.height='';delete p.dataset.custom});try{localStorage.removeItem(storageKey)}catch(e){}};document.querySelector('header').appendChild(reset);
+}
+function initRecording(){
+ const bar=document.querySelector('header');
+ const button=document.createElement('button');button.textContent='开始录屏';
+ const status=document.createElement('span');status.className='meta';status.setAttribute('role','status');
+ const download=document.createElement('a');download.textContent='下载录屏';download.style.color='var(--accent)';download.hidden=true;
+ bar.append(button,status,download);
+ let recorder=null,stream=null,chunks=[],timer=null,url=null,started=0,filename='',bytes=0;
+ const cleanup=()=>{clearInterval(timer);timer=null;if(stream)stream.getTracks().forEach(t=>t.stop());stream=null;button.disabled=false;button.textContent='开始录屏'};
+ const stop=()=>{if(recorder&&recorder.state!=='inactive'){button.disabled=true;status.textContent='正在生成视频…';recorder.stop()}};
+ button.onclick=async()=>{
+  if(recorder&&recorder.state!=='inactive'){stop();return}
+  if(!window.isSecureContext||!navigator.mediaDevices?.getDisplayMedia||!window.MediaRecorder){status.textContent='录屏需使用支持屏幕共享的浏览器，通过 localhost、127.0.0.1 或 HTTPS 访问。';return}
+  button.disabled=true;status.textContent='请选择当前报告标签页或窗口';
+  try{
+   stream=await navigator.mediaDevices.getDisplayMedia({video:{frameRate:{ideal:30,max:30}},audio:false});
+   const mime=['video/webm;codecs=vp8','video/webm;codecs=vp9','video/webm','video/mp4'].find(t=>MediaRecorder.isTypeSupported(t));
+   if(!mime)throw new Error('此浏览器没有可用的视频编码器');
+   chunks=[];bytes=0;recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:6000000});
+   filename=replayFilename(S.manifest,S.data,mime,'录屏');
+   recorder.ondataavailable=e=>{if(e.data.size){chunks.push(e.data);bytes+=e.data.size;if(bytes>512*1024*1024)stop()}};
+   recorder.onstop=()=>{
+    const blob=new Blob(chunks,{type:recorder.mimeType||mime});chunks=[];cleanup();
+    if(!blob.size){status.textContent='未录到画面，请重新录制。';return}
+    if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(blob);download.href=url;download.download=filename;download.hidden=false;
+    status.textContent=`录屏完成 · ${(blob.size/1048576).toFixed(1)} MB`;download.click();
+   };
+   recorder.onerror=e=>{status.textContent='录制出错：'+(e.error?.message||'请重试');stop();cleanup()};
+   stream.getVideoTracks()[0].onended=stop;
+   recorder.start(1000);started=Date.now();button.disabled=false;button.textContent='停止并导出';
+   timer=setInterval(()=>{status.textContent='● 录制中 '+Math.floor((Date.now()-started)/1000)+' 秒';if(Date.now()-started>=30*60*1000)stop()},500);
+  }catch(e){cleanup();status.textContent=e.name==='NotAllowedError'?'已取消录屏或未授予权限。':'无法开始录屏：'+e.message}
+ };
+ window.addEventListener('beforeunload',e=>{if(recorder&&recorder.state!=='inactive'){e.preventDefault();e.returnValue=''}});
+}
+function initDirectExport(){
+ const button=document.createElement('button');button.textContent='导出完整回放视频';
+ const status=document.createElement('span');status.setAttribute('role','status');
+ const progressBox=document.createElement('span');progressBox.hidden=true;progressBox.className='export-progress';
+ const progress=document.createElement('progress');progress.max=1;progress.value=0;progress.setAttribute('aria-label','完整回放导出进度');
+ const percent=document.createElement('span');percent.textContent='0%';progressBox.append(progress,percent);
+ const link=document.createElement('a');link.textContent='下载回放视频';link.hidden=true;link.style.color='var(--accent)';
+ document.querySelector('header').append(button,progressBox,status,link);
+ let busy=false,controller=null,url=null;
+ button.onclick=async()=>{
+  if(busy){status.textContent='正在取消导出…';controller.abort(new DOMException('已取消导出','AbortError'));return}
+  if(!S.data){status.textContent='请先加载报告';return}
+  if(!window.MediaRecorder||!HTMLCanvasElement.prototype.captureStream){status.textContent='此浏览器不支持直接视频导出，请使用 Chrome 或 Edge';return}
+  const mime=['video/webm;codecs=vp8','video/webm;codecs=vp9','video/webm','video/mp4'].find(t=>MediaRecorder.isTypeSupported(t));
+  if(!mime){status.textContent='浏览器没有可用编码器';return}
+  busy=true;controller=new AbortController();link.hidden=true;progressBox.hidden=false;progress.value=0;percent.textContent='0%';progress.setAttribute('aria-valuetext','正在准备视频');status.textContent='正在准备视频…';button.textContent='取消导出';pause();
+  const data=S.data,selected=S.manifest.display_name||data.scene_id||'场景';
+  const canvas=document.createElement('canvas');canvas.width=1920;canvas.height=900+Math.ceil(data.metrics.length/4)*150;
+  const ctx=canvas.getContext('2d');const videos=[];
+  const rect=(x,y,w,h)=>{ctx.fillStyle='#121923';ctx.fillRect(x,y,w,h)};
+  const text=(s,x,y,size=22,color='#e7edf5')=>{ctx.font=size+'px sans-serif';ctx.fillStyle=color;ctx.fillText(String(s),x,y)};
+  const wrap=(s,x,y,width,line,max)=>{let row='';for(const char of String(s)){if(char==='\n'||ctx.measureText(row+char).width>width){ctx.fillText(row,x,y);y+=line;row='';if(y>max){ctx.fillText('…',x,y-line);return}}if(char!=='\n')row+=char}ctx.fillText(row,x,y)};
+  const image=(v,x,y,w,h)=>{rect(x,y,w,h);if(v&&v.readyState>=2){const scale=Math.min(w/v.videoWidth,h/v.videoHeight);ctx.drawImage(v,x+(w-v.videoWidth*scale)/2,y+(h-v.videoHeight*scale)/2,v.videoWidth*scale,v.videoHeight*scale)}};
+  try{
+   const main=data.videos.find(v=>v.label==='camera_surround')||data.videos.find(v=>v.label!=='BEV');
+   if(!main)throw new Error('没有可导出的相机视频');
+   const sources=[main,data.videos.find(v=>v.label==='BEV')].filter(Boolean);
+   for(const source of sources){const v=document.createElement('video');v.muted=true;v.playsInline=true;v.preload='auto';v.src=source.src;videos.push(v)}
+   status.textContent='准备视频…';
+   const draw=t=>{
+    ctx.fillStyle='#0b0f14';ctx.fillRect(0,0,canvas.width,canvas.height);
+    text('天元 闭环评测完整回放',24,38,28);text(t.toFixed(2)+' / '+data.duration_s.toFixed(2)+' s',1560,38,24);
+    text(selected.slice(0,145),24,68,16,'#91a0b5');image(videos[0],20,90,1330,748);image(videos[1],1370,90,530,300);
+    text('BEV',1380,118,22);rect(1370,405,530,433);text('VLM 当前决策',1386,440,26);
+    let decision=null;for(const r of data.reasoning){if(r.t_s<=t)decision=r;else break}
+    ctx.font='22px sans-serif';ctx.fillStyle='#e7edf5';wrap(decision?.text||'当前时间无决策文字',1386,477,492,30,805);
+    text('全部逐时刻指标',24,876,24);
+    data.metrics.forEach((m,i)=>{const x=20+(i%4)*475,y=900+Math.floor(i/4)*150,w=455,h=138;rect(x,y,w,h);text(m.name,x+10,y+24,17);const at=metricAt(m,t);text(at&&at.ok?Number(at.v).toPrecision(5):'无有效值',x+10,y+47,17,'#4ecdc4');
+     const vals=m.v.filter(Number.isFinite);let lo=Math.min(...vals),hi=Math.max(...vals);if(!Number.isFinite(lo)){lo=0;hi=1}if(lo===hi){lo-=.5;hi+=.5}const px=s=>x+10+(w-20)*s/Math.max(.001,data.duration_s),py=v=>y+h-10-(h-65)*(v-lo)/(hi-lo);
+     ctx.strokeStyle='#4ecdc4';ctx.lineWidth=2;ctx.beginPath();let pen=false;for(let j=0;j<m.t.length;j++){if(!m.valid[j]||!Number.isFinite(m.v[j])){pen=false;continue}if(pen)ctx.lineTo(px(m.t[j]),py(m.v[j]));else ctx.moveTo(px(m.t[j]),py(m.v[j]));pen=true}ctx.stroke();ctx.strokeStyle='#ffb454';ctx.beginPath();ctx.moveTo(px(t),y+55);ctx.lineTo(px(t),y+h-6);ctx.stroke();
+    });
+   };
+   const result=await exportReplayFrames({canvas,videos,duration:data.duration_s,draw,signal:controller.signal,
+    onprogress:(fraction,message)=>{
+     if(Number.isFinite(fraction)){progress.value=Math.min(.99,Math.max(0,fraction*.99));percent.textContent=Math.floor(progress.value*100)+'%'}
+     const total=Math.ceil(data.duration_s*30),done=Math.round((Number.isFinite(fraction)?fraction:progress.value/.99)*total);
+     status.textContent=message||`正在逐帧导出 · ${done} / ${total} 帧`;
+     progress.setAttribute('aria-valuetext',percent.textContent+' · '+status.textContent);
+    }});
+   if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(result.blob);link.href=url;
+   link.download=replayFilename(S.manifest,data,result.mime);link.hidden=false;link.click();
+   progress.value=1;percent.textContent='100%';progress.setAttribute('aria-valuetext','100% · 导出完成');
+   status.textContent='导出完成 · '+result.frames+' 帧 · '+(result.blob.size/1048576).toFixed(1)+' MB';
+  }catch(e){status.textContent=e.name==='AbortError'?'已取消导出':'导出失败：'+e.message;progress.setAttribute('aria-valuetext',percent.textContent+' · '+status.textContent)}
+  finally{videos.forEach(v=>{v.pause();v.removeAttribute('src');v.load();v.remove()});busy=false;controller=null;button.textContent='导出完整回放视频'}
+ };
+ window.addEventListener('beforeunload',e=>{if(busy){e.preventDefault();e.returnValue=''}});
+}
+/* Standalone browser helper, embedded into generated report HTML. */
+function replayFilename(manifest, data, mime, kind='完整回放') {
+ const raw=manifest.display_name || data.scene_id || '场景';
+ const scene=Array.from(String(raw).replace(/[<>:"/\\|?*\u0000-\u001f\u007f]/g,'_').replace(/[ .]+$/g,'')).slice(0,100).join('').replace(/[ .]+$/g,'') || '场景';
+ const stamp=new Date().toISOString().replace(/[:.]/g,'-');
+ return `天元-${scene}-${kind}-${stamp}.${mime.includes('mp4')?'mp4':'webm'}`;
+}
+async function exportReplayFrames({canvas,videos,duration,draw,onprogress,signal}) {
+ const fps=30, count=Math.ceil(duration*fps);
+ if(!Number.isFinite(duration)||duration<=0||!Number.isSafeInteger(count))throw Error('报告时长无效');
+ const mime=['video/webm;codecs=vp8','video/webm;codecs=vp9','video/webm','video/mp4'].find(t=>MediaRecorder.isTypeSupported(t));
+ if(!mime)throw Error('浏览器没有可用编码器');
+ const scope=new AbortController();
+ let recorder,stream,track,failure=null,chunks=[],stopResolve,stopReject,stopPromise;
+ const abort=()=>scope.abort(signal.reason || new DOMException('已取消导出','AbortError'));
+ signal.addEventListener('abort',abort,{once:true});if(signal.aborted)abort();
+ const check=()=>{if(scope.signal.aborted)throw scope.signal.reason;if(failure)throw failure};
+ const waitEvent=(target,event,ready,timeout=30000)=>new Promise((resolve,reject)=>{
+  let timer;const done=(err)=>{clearTimeout(timer);target.removeEventListener(event,ok);target.removeEventListener('error',bad);scope.signal.removeEventListener('abort',aborted);err?reject(err):resolve()};
+  const ok=()=>{if(!ready||ready())done()},bad=()=>done(failure||Error('视频解码或编码失败')),aborted=()=>done(scope.signal.reason);
+  target.addEventListener(event,ok);target.addEventListener('error',bad);scope.signal.addEventListener('abort',aborted,{once:true});
+  timer=setTimeout(()=>done(Error(event+' 等待超时')),timeout);
+  try{check();if(ready&&ready())done()}catch(e){done(e)}
+ });
+ const pauseRecorder=async()=>{if(recorder?.state==='recording'){const paused=waitEvent(recorder,'pause');recorder.pause();await paused}};
+ const visible=async()=>{check();if(document.hidden){await pauseRecorder();onprogress(null,'页面在后台，导出已暂停');await waitEvent(document,'visibilitychange',()=>!document.hidden,24*60*60*1000)}check()};
+ const onVisibility=()=>{if(document.hidden&&recorder?.state==='recording')recorder.pause()};
+ const onError=e=>{failure=Error(e.error?.message||'视频编码失败');scope.abort(failure);stopReject?.(failure)};
+ const onData=e=>{if(e.data.size)chunks.push(e.data)};
+ const onStop=()=>stopResolve?.();
+ try {
+  onprogress(0,'正在加载相机和 BEV 视频…');
+  document.addEventListener('visibilitychange',onVisibility);
+  for(const v of videos){
+   v.pause();v.muted=true;
+   await waitEvent(v,'loadeddata',()=>v.readyState>=2);
+   check();
+   if(!Number.isFinite(v.duration)||v.duration<=0)throw Error('源视频时长无效：'+v.src);
+   if(duration-v.duration>0.100001)throw Error(`源视频比报告短 ${(duration-v.duration).toFixed(3)} 秒（允许最多 0.1 秒）：${v.src}`);
+  }
+  onprogress(0,'视频已就绪，正在启动编码…');
+  draw(0);
+  stream=canvas.captureStream(0);track=stream.getVideoTracks()[0];
+  if(!track?.requestFrame)throw Error('浏览器不支持手动提交视频帧');
+  recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:10000000});
+  stopPromise=new Promise((resolve,reject)=>{stopResolve=resolve;stopReject=reject});
+  // Install a rejection handler immediately, including during seek waits.
+  stopPromise.catch(()=>{});
+  recorder.addEventListener('error',onError);recorder.addEventListener('dataavailable',onData);recorder.addEventListener('stop',onStop);
+  let started=false;
+  for(let i=0;i<count;i++){
+   await visible();await pauseRecorder();
+   const t=i/fps;
+   await Promise.all(videos.map(async v=>{
+    check();if(v.error)throw Error('源视频解码失败：'+v.src);
+    const target=Math.min(t,Math.max(0,v.duration-.000001));
+    if(Math.abs(v.currentTime-target)<.00001&&v.readyState>=2)return;
+    const sought=waitEvent(v,'seeked',()=>!v.seeking&&Math.abs(v.currentTime-target)<.002&&v.readyState>=2);
+    v.currentTime=target;await sought;
+   }));
+   await visible();check();
+   // Resume only after every source has finished seeking. No video is played.
+   if(!started){const ready=waitEvent(recorder,'start');recorder.start();draw(t);track.requestFrame();await ready;started=true}
+   else if(recorder.state==='paused'){const ready=waitEvent(recorder,'resume');recorder.resume();await ready}
+   if(document.hidden){i--;continue}
+   draw(t);track.requestFrame();
+   // MediaRecorder uses a real-time clock: hold each submitted frame for its
+   // share of the report timeline, excluding time spent seeking/backgrounded.
+   let remaining=Math.min(1/fps,duration-t)*1000;
+   while(remaining>0){
+    await visible();
+    if(recorder.state==='paused'){const ready=waitEvent(recorder,'resume');recorder.resume();await ready;draw(t);track.requestFrame()}
+    const elapsed=await new Promise((resolve,reject)=>{
+     const start=performance.now();let timer;
+     const clean=()=>{clearTimeout(timer);document.removeEventListener('visibilitychange',hidden);scope.signal.removeEventListener('abort',aborted)};
+     const finish=()=>{clean();resolve(Math.min(remaining,performance.now()-start))};
+     const hidden=()=>{if(document.hidden)finish()},aborted=()=>{clean();reject(scope.signal.reason)};
+     document.addEventListener('visibilitychange',hidden);scope.signal.addEventListener('abort',aborted,{once:true});
+     timer=setTimeout(finish,remaining);if(scope.signal.aborted)aborted();else if(document.hidden)finish();
+    });
+    remaining-=elapsed;check();
+   }
+   await pauseRecorder();onprogress((i+1)/count);
+  }
+  check();onprogress(1,'全部帧已处理，正在等待编码结束…');recorder.stop();
+  await Promise.race([stopPromise,new Promise((_,reject)=>{const timer=setTimeout(()=>reject(Error('等待编码结束超时')),30000);stopPromise.finally(()=>clearTimeout(timer)).catch(()=>{})})]);
+  check();const blob=new Blob(chunks,{type:recorder.mimeType||mime});
+  if(!blob.size)throw Error('编码结束但视频数据为空');
+  return {blob,mime:recorder.mimeType||mime,frames:count};
+ } finally {
+  signal.removeEventListener('abort',abort);document.removeEventListener('visibilitychange',onVisibility);
+  scope.abort(new DOMException('导出已结束','AbortError'));
+  if(recorder){recorder.removeEventListener('error',onError);recorder.removeEventListener('dataavailable',onData);recorder.removeEventListener('stop',onStop);if(recorder.state!=='inactive')recorder.stop()}
+  stream?.getTracks().forEach(t=>t.stop());
+  videos.forEach(v=>{v.pause();v.removeAttribute('src');v.load();v.remove()});chunks=[];
+ }
+}
+
+initDirectExport();
+initResize();
+init().catch(e=>document.body.innerHTML=`<pre>${esc(e.stack)}</pre>`);
+</script></body></html>
