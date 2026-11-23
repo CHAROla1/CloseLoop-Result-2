@@ -1,0 +1,22 @@
+{
+  "clips_type_tsv": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/clips_type.txt",
+  "output_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/results/2026-11-19-edge-101-l3-difix",
+  "allow_driver_steps_reasoning": true,
+  "completion_progress_threshold": 0.95,
+  "expected_task_count": 101,
+  "extraction": {
+    "scenes_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/data/scenes",
+    "samples_json": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/data/samples.json",
+    "rerun_registry_dir": "",
+    "registry_dir": "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/cluster_config/cluster_registry/2026-11-19-edge-101-l3-difix",
+    "output_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-19-edge-101-l3-difix"
+  },
+  "mapping_csv": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-19-edge-101-l3-difix/mapping.csv",
+  "tasks_dir": "/mnt/data/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop/tools/report_metrics_method/extracted/2026-11-19-edge-101-l3-difix/tasks",
+  "task_files": {
+    "gt_ego_trajectory": "{task_id}/gt_ego_trajectory.json",
+    "ego_trajectory": "{task_id}/ego_trajectory.csv",
+    "metrics": "{task_id}/metrics.parquet",
+    "vlm_reasoning": "{task_id}/vlm_reasoning.jsonl"
+  }
+}
