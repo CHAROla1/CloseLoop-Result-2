@@ -1,0 +1,15 @@
+{
+  "title": "task-00051",
+  "display_name": "rollout-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+  "dataset_name": "L3",
+  "renderer_model": "streetgs",
+  "generated_at": "2026-11-23T10:11:51.601868+08:00",
+  "rollouts": [
+    {
+      "partial_result": null,
+      "scene_id": "clip_M18-2_07_20260111091359_DF_f101_201",
+      "rollout_id": "c2696a72-e4ce-11f1-b679-0202160a96ee",
+      "data": "data/rollout_0000.json"
+    }
+  ]
+}

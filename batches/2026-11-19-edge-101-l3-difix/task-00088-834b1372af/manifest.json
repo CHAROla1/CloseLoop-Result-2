@@ -1,0 +1,40 @@
+{
+  "title": "task-00088",
+  "display_name": "rollout-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+  "dataset_name": "L3",
+  "renderer_model": "streetgs",
+  "generated_at": "2026-11-23T10:11:04.662359+08:00",
+  "rollouts": [
+    {
+      "partial_result": {
+        "schema": "alpasim-partial-result/v1",
+        "result_status": "partial_failed",
+        "original_exit_code": 1,
+        "finalization_status": "completed",
+        "artifacts": {
+          "metrics": "metrics.parquet",
+          "evaluation_video": "generated",
+          "camera_videos": [
+            "rollout_asl_frames/camera_cross_left_120fov.mp4",
+            "rollout_asl_frames/camera_cross_right_120fov.mp4",
+            "rollout_asl_frames/camera_front_tele_30fov.mp4",
+            "rollout_asl_frames/camera_front_wide_120fov.mp4",
+            "rollout_asl_frames/camera_rear_left_70fov.mp4",
+            "rollout_asl_frames/camera_rear_right_70fov.mp4",
+            "rollout_asl_frames/camera_rear_tele_30fov.mp4"
+          ]
+        },
+        "errors": {},
+        "coverage": {
+          "start_us": 1,
+          "end_us": 9100001,
+          "duration_s": 9.1,
+          "ego_pose_count": 92
+        }
+      },
+      "scene_id": "clip_M18-2_07_20260130221138_DF_f89_189",
+      "rollout_id": "c22dc1c8-e4d5-11f1-9a09-0202160a9bdb",
+      "data": "data/rollout_0000.json"
+    }
+  ]
+}
