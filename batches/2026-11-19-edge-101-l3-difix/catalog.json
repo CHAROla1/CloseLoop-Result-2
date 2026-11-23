@@ -1,0 +1,913 @@
+{
+  "runs": [
+    {
+      "id": "task-00100-5de38127ca",
+      "name": "task-00100",
+      "display_name": "task-00100-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00100-5de38127ca/index.html"
+    },
+    {
+      "id": "task-00099-edb2beaac8",
+      "name": "task-00099",
+      "display_name": "task-00099-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00099-edb2beaac8/index.html"
+    },
+    {
+      "id": "task-00098-d2d15b1564",
+      "name": "task-00098",
+      "display_name": "task-00098-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00098-d2d15b1564/index.html"
+    },
+    {
+      "id": "task-00097-9f0c86eba9",
+      "name": "task-00097",
+      "display_name": "task-00097-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00097-9f0c86eba9/index.html"
+    },
+    {
+      "id": "task-00096-462ba7a019",
+      "name": "task-00096",
+      "display_name": "task-00096-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00096-462ba7a019/index.html"
+    },
+    {
+      "id": "task-00095-26316d4f45",
+      "name": "task-00095",
+      "display_name": "task-00095-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00095-26316d4f45/index.html"
+    },
+    {
+      "id": "task-00094-19a94d184c",
+      "name": "task-00094",
+      "display_name": "task-00094-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00094-19a94d184c/index.html"
+    },
+    {
+      "id": "task-00093-dc9ec523a2",
+      "name": "task-00093",
+      "display_name": "task-00093-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00093-dc9ec523a2/index.html"
+    },
+    {
+      "id": "task-00092-a2cd3dcc4d",
+      "name": "task-00092",
+      "display_name": "task-00092-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00092-a2cd3dcc4d/index.html"
+    },
+    {
+      "id": "task-00091-629bd59cc7",
+      "name": "task-00091",
+      "display_name": "task-00091-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00091-629bd59cc7/index.html"
+    },
+    {
+      "id": "task-00090-20977c08b8",
+      "name": "task-00090",
+      "display_name": "task-00090-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00090-20977c08b8/index.html"
+    },
+    {
+      "id": "task-00089-03b7960b7a",
+      "name": "task-00089",
+      "display_name": "task-00089-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00089-03b7960b7a/index.html"
+    },
+    {
+      "id": "task-00088-834b1372af",
+      "name": "task-00088",
+      "display_name": "task-00088-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "失败 · 部分结果已生成",
+      "url": "task-00088-834b1372af/index.html"
+    },
+    {
+      "id": "task-00087-cc8c5ac470",
+      "name": "task-00087",
+      "display_name": "task-00087-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00087-cc8c5ac470/index.html"
+    },
+    {
+      "id": "task-00086-2a3786407e",
+      "name": "task-00086",
+      "display_name": "task-00086-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00086-2a3786407e/index.html"
+    },
+    {
+      "id": "task-00085-7d2c3395e0",
+      "name": "task-00085",
+      "display_name": "task-00085-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00085-7d2c3395e0/index.html"
+    },
+    {
+      "id": "task-00084-b1b64ade2e",
+      "name": "task-00084",
+      "display_name": "task-00084-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00084-b1b64ade2e/index.html"
+    },
+    {
+      "id": "task-00083-bbbe954abb",
+      "name": "task-00083",
+      "display_name": "task-00083-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00083-bbbe954abb/index.html"
+    },
+    {
+      "id": "task-00082-3344dc227f",
+      "name": "task-00082",
+      "display_name": "task-00082-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00082-3344dc227f/index.html"
+    },
+    {
+      "id": "task-00081-a15c113209",
+      "name": "task-00081",
+      "display_name": "task-00081-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00081-a15c113209/index.html"
+    },
+    {
+      "id": "task-00080-e35151f14d",
+      "name": "task-00080",
+      "display_name": "task-00080-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00080-e35151f14d/index.html"
+    },
+    {
+      "id": "task-00079-0082b888f5",
+      "name": "task-00079",
+      "display_name": "task-00079-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00079-0082b888f5/index.html"
+    },
+    {
+      "id": "task-00078-a670bca63a",
+      "name": "task-00078",
+      "display_name": "task-00078-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00078-a670bca63a/index.html"
+    },
+    {
+      "id": "task-00077-85e14733c4",
+      "name": "task-00077",
+      "display_name": "task-00077-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00077-85e14733c4/index.html"
+    },
+    {
+      "id": "task-00076-0d8416b9ce",
+      "name": "task-00076",
+      "display_name": "task-00076-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00076-0d8416b9ce/index.html"
+    },
+    {
+      "id": "task-00075-80f03b1b5b",
+      "name": "task-00075",
+      "display_name": "task-00075-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00075-80f03b1b5b/index.html"
+    },
+    {
+      "id": "task-00074-a68f129be1",
+      "name": "task-00074",
+      "display_name": "task-00074-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00074-a68f129be1/index.html"
+    },
+    {
+      "id": "task-00073-820eda4cb2",
+      "name": "task-00073",
+      "display_name": "task-00073-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00073-820eda4cb2/index.html"
+    },
+    {
+      "id": "task-00072-ed419a6499",
+      "name": "task-00072",
+      "display_name": "task-00072-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00072-ed419a6499/index.html"
+    },
+    {
+      "id": "task-00071-9000938bdd",
+      "name": "task-00071",
+      "display_name": "task-00071-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00071-9000938bdd/index.html"
+    },
+    {
+      "id": "task-00070-e193b3fb51",
+      "name": "task-00070",
+      "display_name": "task-00070-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00070-e193b3fb51/index.html"
+    },
+    {
+      "id": "task-00069-4061579d10",
+      "name": "task-00069",
+      "display_name": "task-00069-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00069-4061579d10/index.html"
+    },
+    {
+      "id": "task-00068-65ced274ab",
+      "name": "task-00068",
+      "display_name": "task-00068-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00068-65ced274ab/index.html"
+    },
+    {
+      "id": "task-00067-81f438fb44",
+      "name": "task-00067",
+      "display_name": "task-00067-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00067-81f438fb44/index.html"
+    },
+    {
+      "id": "task-00066-b55184f1c3",
+      "name": "task-00066",
+      "display_name": "task-00066-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00066-b55184f1c3/index.html"
+    },
+    {
+      "id": "task-00065-1931d5e8fb",
+      "name": "task-00065",
+      "display_name": "task-00065-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00065-1931d5e8fb/index.html"
+    },
+    {
+      "id": "task-00064-ddf7bfd319",
+      "name": "task-00064",
+      "display_name": "task-00064-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00064-ddf7bfd319/index.html"
+    },
+    {
+      "id": "task-00063-193028891b",
+      "name": "task-00063",
+      "display_name": "task-00063-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00063-193028891b/index.html"
+    },
+    {
+      "id": "task-00062-dced372025",
+      "name": "task-00062",
+      "display_name": "task-00062-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00062-dced372025/index.html"
+    },
+    {
+      "id": "task-00061-a5936edc08",
+      "name": "task-00061",
+      "display_name": "task-00061-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00061-a5936edc08/index.html"
+    },
+    {
+      "id": "task-00060-d8964d83d0",
+      "name": "task-00060",
+      "display_name": "task-00060-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00060-d8964d83d0/index.html"
+    },
+    {
+      "id": "task-00059-3fc97b1746",
+      "name": "task-00059",
+      "display_name": "task-00059-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00059-3fc97b1746/index.html"
+    },
+    {
+      "id": "task-00058-50ff160cca",
+      "name": "task-00058",
+      "display_name": "task-00058-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00058-50ff160cca/index.html"
+    },
+    {
+      "id": "task-00057-3498de6d5d",
+      "name": "task-00057",
+      "display_name": "task-00057-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00057-3498de6d5d/index.html"
+    },
+    {
+      "id": "task-00056-d3e0f3f1d8",
+      "name": "task-00056",
+      "display_name": "task-00056-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00056-d3e0f3f1d8/index.html"
+    },
+    {
+      "id": "task-00055-e424d4a2d9",
+      "name": "task-00055",
+      "display_name": "task-00055-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00055-e424d4a2d9/index.html"
+    },
+    {
+      "id": "task-00054-594dd8bbd5",
+      "name": "task-00054",
+      "display_name": "task-00054-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00054-594dd8bbd5/index.html"
+    },
+    {
+      "id": "task-00053-7de877711c",
+      "name": "task-00053",
+      "display_name": "task-00053-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00053-7de877711c/index.html"
+    },
+    {
+      "id": "task-00052-f18e70cc36",
+      "name": "task-00052",
+      "display_name": "task-00052-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00052-f18e70cc36/index.html"
+    },
+    {
+      "id": "task-00051-835982ad12",
+      "name": "task-00051",
+      "display_name": "task-00051-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00051-835982ad12/index.html"
+    },
+    {
+      "id": "task-00050-6762ae03d2",
+      "name": "task-00050",
+      "display_name": "task-00050-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00050-6762ae03d2/index.html"
+    },
+    {
+      "id": "task-00049-3bde9b0897",
+      "name": "task-00049",
+      "display_name": "task-00049-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00049-3bde9b0897/index.html"
+    },
+    {
+      "id": "task-00048-030e1b4fb2",
+      "name": "task-00048",
+      "display_name": "task-00048-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00048-030e1b4fb2/index.html"
+    },
+    {
+      "id": "task-00047-7afc23f67e",
+      "name": "task-00047",
+      "display_name": "task-00047-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00047-7afc23f67e/index.html"
+    },
+    {
+      "id": "task-00046-9954d340f9",
+      "name": "task-00046",
+      "display_name": "task-00046-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00046-9954d340f9/index.html"
+    },
+    {
+      "id": "task-00045-c4918f1b05",
+      "name": "task-00045",
+      "display_name": "task-00045-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00045-c4918f1b05/index.html"
+    },
+    {
+      "id": "task-00044-d905b049c5",
+      "name": "task-00044",
+      "display_name": "task-00044-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00044-d905b049c5/index.html"
+    },
+    {
+      "id": "task-00043-bd7eb84c9d",
+      "name": "task-00043",
+      "display_name": "task-00043-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00043-bd7eb84c9d/index.html"
+    },
+    {
+      "id": "task-00042-f144b0a767",
+      "name": "task-00042",
+      "display_name": "task-00042-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00042-f144b0a767/index.html"
+    },
+    {
+      "id": "task-00041-cf308756bd",
+      "name": "task-00041",
+      "display_name": "task-00041-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00041-cf308756bd/index.html"
+    },
+    {
+      "id": "task-00040-aff5695878",
+      "name": "task-00040",
+      "display_name": "task-00040-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00040-aff5695878/index.html"
+    },
+    {
+      "id": "task-00039-9c41418328",
+      "name": "task-00039",
+      "display_name": "task-00039-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00039-9c41418328/index.html"
+    },
+    {
+      "id": "task-00038-5b40534563",
+      "name": "task-00038",
+      "display_name": "task-00038-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00038-5b40534563/index.html"
+    },
+    {
+      "id": "task-00037-9b1dda6da1",
+      "name": "task-00037",
+      "display_name": "task-00037-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00037-9b1dda6da1/index.html"
+    },
+    {
+      "id": "task-00036-bcc6c1e2cb",
+      "name": "task-00036",
+      "display_name": "task-00036-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00036-bcc6c1e2cb/index.html"
+    },
+    {
+      "id": "task-00035-8da7a3623f",
+      "name": "task-00035",
+      "display_name": "task-00035-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00035-8da7a3623f/index.html"
+    },
+    {
+      "id": "task-00034-9f3ae6ffb8",
+      "name": "task-00034",
+      "display_name": "task-00034-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00034-9f3ae6ffb8/index.html"
+    },
+    {
+      "id": "task-00033-3ae7585b83",
+      "name": "task-00033",
+      "display_name": "task-00033-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00033-3ae7585b83/index.html"
+    },
+    {
+      "id": "task-00032-e4379b396c",
+      "name": "task-00032",
+      "display_name": "task-00032-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00032-e4379b396c/index.html"
+    },
+    {
+      "id": "task-00031-b502779f76",
+      "name": "task-00031",
+      "display_name": "task-00031-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00031-b502779f76/index.html"
+    },
+    {
+      "id": "task-00030-e2a7f27073",
+      "name": "task-00030",
+      "display_name": "task-00030-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00030-e2a7f27073/index.html"
+    },
+    {
+      "id": "task-00029-0a77825cb8",
+      "name": "task-00029",
+      "display_name": "task-00029-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00029-0a77825cb8/index.html"
+    },
+    {
+      "id": "task-00028-12315fdfe8",
+      "name": "task-00028",
+      "display_name": "task-00028-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00028-12315fdfe8/index.html"
+    },
+    {
+      "id": "task-00027-2b018c9f9f",
+      "name": "task-00027",
+      "display_name": "task-00027-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00027-2b018c9f9f/index.html"
+    },
+    {
+      "id": "task-00026-2eeaf9643f",
+      "name": "task-00026",
+      "display_name": "task-00026-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00026-2eeaf9643f/index.html"
+    },
+    {
+      "id": "task-00025-6380437b94",
+      "name": "task-00025",
+      "display_name": "task-00025-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00025-6380437b94/index.html"
+    },
+    {
+      "id": "task-00024-7a9f44c126",
+      "name": "task-00024",
+      "display_name": "task-00024-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00024-7a9f44c126/index.html"
+    },
+    {
+      "id": "task-00023-5874d50ec5",
+      "name": "task-00023",
+      "display_name": "task-00023-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00023-5874d50ec5/index.html"
+    },
+    {
+      "id": "task-00022-e899a62277",
+      "name": "task-00022",
+      "display_name": "task-00022-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00022-e899a62277/index.html"
+    },
+    {
+      "id": "task-00021-7acb08df56",
+      "name": "task-00021",
+      "display_name": "task-00021-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00021-7acb08df56/index.html"
+    },
+    {
+      "id": "task-00020-db7ebdeefa",
+      "name": "task-00020",
+      "display_name": "task-00020-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00020-db7ebdeefa/index.html"
+    },
+    {
+      "id": "task-00019-6d44ef892a",
+      "name": "task-00019",
+      "display_name": "task-00019-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00019-6d44ef892a/index.html"
+    },
+    {
+      "id": "task-00018-7244ede47b",
+      "name": "task-00018",
+      "display_name": "task-00018-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00018-7244ede47b/index.html"
+    },
+    {
+      "id": "task-00017-2bf7ea4052",
+      "name": "task-00017",
+      "display_name": "task-00017-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00017-2bf7ea4052/index.html"
+    },
+    {
+      "id": "task-00016-7d982ea1f3",
+      "name": "task-00016",
+      "display_name": "task-00016-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00016-7d982ea1f3/index.html"
+    },
+    {
+      "id": "task-00015-e32133ed87",
+      "name": "task-00015",
+      "display_name": "task-00015-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00015-e32133ed87/index.html"
+    },
+    {
+      "id": "task-00014-d3f30b7792",
+      "name": "task-00014",
+      "display_name": "task-00014-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00014-d3f30b7792/index.html"
+    },
+    {
+      "id": "task-00013-b0e74424db",
+      "name": "task-00013",
+      "display_name": "task-00013-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00013-b0e74424db/index.html"
+    },
+    {
+      "id": "task-00012-9cd77b10a1",
+      "name": "task-00012",
+      "display_name": "task-00012-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00012-9cd77b10a1/index.html"
+    },
+    {
+      "id": "task-00011-214f6c2707",
+      "name": "task-00011",
+      "display_name": "task-00011-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00011-214f6c2707/index.html"
+    },
+    {
+      "id": "task-00010-378e59c7a3",
+      "name": "task-00010",
+      "display_name": "task-00010-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00010-378e59c7a3/index.html"
+    },
+    {
+      "id": "task-00009-c8f5badbff",
+      "name": "task-00009",
+      "display_name": "task-00009-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00009-c8f5badbff/index.html"
+    },
+    {
+      "id": "task-00008-b5f3d1cf6b",
+      "name": "task-00008",
+      "display_name": "task-00008-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00008-b5f3d1cf6b/index.html"
+    },
+    {
+      "id": "task-00007-8f80049f95",
+      "name": "task-00007",
+      "display_name": "task-00007-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00007-8f80049f95/index.html"
+    },
+    {
+      "id": "task-00006-9e35bc4771",
+      "name": "task-00006",
+      "display_name": "task-00006-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00006-9e35bc4771/index.html"
+    },
+    {
+      "id": "task-00005-5587c7e457",
+      "name": "task-00005",
+      "display_name": "task-00005-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00005-5587c7e457/index.html"
+    },
+    {
+      "id": "task-00004-bf478ffd3a",
+      "name": "task-00004",
+      "display_name": "task-00004-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00004-bf478ffd3a/index.html"
+    },
+    {
+      "id": "task-00003-f83a85e548",
+      "name": "task-00003",
+      "display_name": "task-00003-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00003-f83a85e548/index.html"
+    },
+    {
+      "id": "task-00002-046c5cda6e",
+      "name": "task-00002",
+      "display_name": "task-00002-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00002-046c5cda6e/index.html"
+    },
+    {
+      "id": "task-00001-4085a643c4",
+      "name": "task-00001",
+      "display_name": "task-00001-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00001-4085a643c4/index.html"
+    },
+    {
+      "id": "task-00000-d3c8a7831e",
+      "name": "task-00000",
+      "display_name": "task-00000-L3-VLA_edge2b-checkpoint-37000-streetgs-时间未记录",
+      "dataset_name": "L3",
+      "renderer_model": "streetgs",
+      "status": "已生成",
+      "url": "task-00000-d3c8a7831e/index.html"
+    }
+  ]
+}
