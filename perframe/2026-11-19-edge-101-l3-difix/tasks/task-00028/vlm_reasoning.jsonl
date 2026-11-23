@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light and prepare to turn right to follow our route."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Continue decelerating to yield to the crossing vehicle before turning right at the intersection to follow our route."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Turn right onto the roadway to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to prepare to stop at the intersection for the red traffic light and to yield to crossing traffic before turning right."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to stop at the stop line before the intersection for the red traffic light ahead, preparing to turn right to follow our route."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to prepare to stop for the red light and the crossing vehicle traversing the intersection ahead of our right turn."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Decelerate to prepare to stop at the intersection for the red traffic light and to yield to crossing traffic."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light to prepare for a right turn to follow our route."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Decelerate to stop at the intersection stop line for the red traffic light and to yield to a crossing vehicle before turning right to follow our route."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light and prepare to turn right to follow our route."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light ahead before turning right to follow our route."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Decelerate to yield to the crossing vehicle on the cross street before turning right to follow our route."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Decelerate and yield at the intersection to the crossing vehicle and the red traffic light before turning right to follow our route."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light to prepare for a right turn to follow our route."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Decelerate and yield to the crossing vehicle at the intersection before turning right to follow our route."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Continue decelerating to stop at the stop line for the red traffic light to prepare for our route's right turn."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "The traffic light has turned yellow, so decelerate to come to a stop at the stop line before the intersection."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light to prepare for our route's right turn."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Decelerate while approaching the intersection to prepare for a right turn to follow our route, yielding to the red traffic light and crossing traffic."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light to prepare for a right turn to follow our route."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Decelerate to approach the intersection for a right turn to follow our route, as the traffic light governing our approach is red."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light and crossing traffic before turning right to follow our route."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light to prepare to turn right to follow our route."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Continue slowing to stop before the crosswalk for our right turn, as the signal governing our lane is red."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Decelerate toward the stop line to prepare for a right turn to follow our route, as the traffic light is red."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Decelerate to a stop before the crosswalk to yield to crossing traffic and prepare for our right turn under the red light."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Continue decelerating to stop at the stop line for the red traffic light, as the crossing vehicle has cleared our path."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Decelerate to a stop and yield to crossing motorcycles before turning right to follow our route, as the traffic light is red."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Decelerate and yield to crossing motorcycles while turning right at the intersection to follow our route, as the traffic signal is red."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Decelerate and yield to the crossing motorcycle before turning right at the intersection to follow our route, as the traffic light has turned yellow."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light to follow our route and prepare to turn right."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Continue decelerating to a stop at the stop line before the intersection to follow our route, as the traffic light has turned yellow."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate to yield to the crossing motorcycles and vehicle before turning right to follow our route."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Yield to the crossing vehicle and slow to a stop at the red traffic light before turning right to follow our route."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Decelerate to a stop before the intersection stop line for the red traffic light."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Continue decelerating to yield to the crossing motorcycles and scooter before turning right at the intersection to follow our route, as the traffic light has turned yellow."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Continue decelerating to yield to the crossing scooter and the car crossing from the right while preparing to turn right on red to follow our route."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Advance toward the intersection stop line to prepare for our right turn to follow our route, as the traffic light has turned yellow."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Decelerate to yield to the crossing vehicle and crossing scooter while preparing to turn right to follow our route."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light to prepare for our route's right turn."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate while approaching the intersection to prepare for a right turn to follow our route, as the traffic light is red and crossing traffic is traversing our path."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Decelerate and yield to crossing traffic at the intersection before turning right on red to follow our route."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing scooter has cleared our path under the green light."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to yield to crossing traffic before turning right at the intersection to follow our route."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Proceed with the right turn at the intersection to follow our route, as the crossing scooters have cleared our path."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Turn right at the intersection to follow our route, as crossing traffic has cleared our path."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Proceed with the right turn through the intersection to follow our route, as the crossing motorcycles have cleared our path."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Accelerate and complete the right turn to follow our route, as the crossing scooter has cleared our path."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Proceed with the right turn on red to follow our route, as the crossing moped has cleared our path."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Proceed with the right turn at the intersection to follow our route, as the crossing scooter has cleared our path under the green signal."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Accelerate and turn right through the intersection to follow our route, as the crossing scooter has cleared our path under the green traffic light."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Proceed with the right turn through the intersection to follow our route, as the crossing cyclist has cleared our path under the green traffic signal."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing motorcycle has cleared our path and the traffic light is green."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "The traffic light has turned green, so proceed into the intersection and turn right to follow our route."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Proceed and turn right at the intersection to follow our route, as the crossing motorcycle has cleared our path and the traffic light remains green."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Proceed with the right turn at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Turn right at the intersection to follow our route, as permitted by the green traffic light."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Proceed and turn right at the intersection to follow our route, as the crossing scooter has cleared our path."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Proceed with the right turn through the intersection to follow our route, as the crossing scooter has cleared our path under the green traffic signal."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Proceed to turn right at the intersection to follow our route, as the crossing vehicle has cleared our path under the green traffic light."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Proceed and turn right at the intersection to follow our route, as the crossing vehicle has cleared our path under the green traffic signal."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Proceed with the right turn to follow our route under the green traffic light, as the crossing moped has cleared our path."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Turn right at the intersection to follow our route, as permitted by the green traffic light."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Proceed with the right turn at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "The traffic light has turned green, so proceed with the right turn through the intersection to follow our route."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "The light has turned green, so proceed through the intersection to turn right to follow our route."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "The traffic light has turned green, so proceed into the intersection and turn right to follow our route."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Proceed forward and turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Turn right at the intersection to follow our route, as permitted by the green traffic light."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Proceed forward and turn right at the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Proceed and turn right through the intersection to follow our route, as the crossing vehicle has cleared our path and the traffic light remains green."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Proceed with the right turn at the intersection to follow our route, as the crossing vehicle has cleared our path under the green traffic light."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "The traffic light has turned green, so proceed with the right turn at the intersection to follow our route."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Turn right at the intersection to follow our route, as permitted by the green traffic light."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Proceed through the intersection and turn right to follow our route, as the traffic light has turned green."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Proceed through the intersection and turn right to follow our route, as the traffic light has turned green."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "The traffic light has turned green, so proceed through the intersection to complete the right turn to follow our route."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Proceed into the intersection and turn right to follow our route, as the traffic light has turned green."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Turn right at the intersection to follow our route, as the traffic light is green."}

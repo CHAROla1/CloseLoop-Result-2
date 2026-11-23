@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Accelerate and steer left to merge into the travel lane to bypass the parked vehicle on the right, as the overtaking vehicle has cleared our path."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Stop and wait behind the stationary bus stopped in our lane."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Brake to a complete stop as the lead bus ahead halts in our lane."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to a stop behind the stopped bus in our lane, as oncoming traffic prevents a safe overtaking maneuver."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to a stop behind the stationary bus occupying our travel lane."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to a stop behind the stationary bus as it is stopped in our lane."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Decelerate to a stop behind the stationary bus stopped in our lane."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Decelerate to a complete stop as a stationary bus on the right obstructs our lane."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to maintain safe clearance while passing the stationary bus parked on the right."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Decelerate to maintain safe clearance as we pass the stationary bus parked on the right."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Decelerate to maintain safe clearance as a pedestrian walks in the roadway beside parked vehicles."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Accelerate and steer left into the opposing lane to pass the stationary bus obstructing our lane."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Accelerate and proceed forward along the roadway as the pedestrian crossing is cleared and the lead vehicle pulls away."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Accelerate to resume cruising speed after the pedestrian has cleared our lane."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Accelerate forward to resume cruising speed as the lead vehicle pulls away and our path clears."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Accelerate and steer left to bypass the stationary vehicle obstructing our lane, as oncoming traffic has cleared."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Steer right and accelerate to overtake the stationary bus, as the adjacent lane is clear."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Decelerate to maintain a safe following distance behind the stopped bus ahead in our lane."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Accelerate and steer left to bypass the parked vehicle, as the oncoming traffic has cleared our path."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Accelerate and proceed forward as the lead vehicle pulls over to the right curb to clear our path."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Steer right to return to our lane, as the parked vehicle ahead has been cleared."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Change lanes to the right to prepare for our upcoming right turn to follow our route."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Accelerate and steer left to overtake the stopped bus obstructing our lane."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Decelerate to maintain a safe following distance behind the stopped bus in our lane."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Decelerate to a stop behind the stationary bus stopped in our lane, as it obstructs our path and prevents us from passing."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Decelerate and steer right to pull over and stop behind the parked bus, as it obstructs our path."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Accelerate and steer right to return to our lane after clearing the bus stopped on the right."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Decelerate to a stop and wait behind the stationary bus stopped in our lane."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate to maintain safe clearance as we pass a stopped bus and a worker standing beside it on the right."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead bus ahead is stopped in our lane."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Change lanes to the right to prepare for our upcoming right turn, as the bus ahead is stopped in our lane."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Decelerate and steer left to maintain safe clearance around the stationary bus stopped along the right curb."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Decelerate to a stop behind the stationary bus obstructing our lane."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Accelerate and steer left to pass the parked bus on the right, as the oncoming lane is clear."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead bus ahead slows down."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead bus as it approaches a stopped service vehicle ahead."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Accelerate and steer left to pass the parked bus on the right, as the oncoming lane is clear."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate to a stop behind the stationary bus in our lane as it is stopped in our path."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Steer left and accelerate to bypass the stopped bus obstructing our lane."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Steer right and decelerate to pull over behind the stationary bus stopped in our lane."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane, as it obstructs our path."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to a stop behind the stationary bus ahead in our lane."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the stopped bus in our lane."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate and come to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate and maintain a safe following distance as the lead bus ahead slows down to a stop."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Change lanes to the right lane to follow our route and avoid the left-turn-only lane ahead, as the target lane is clear."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate to stop behind the stationary bus in our lane as it is stopped ahead."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Change lanes to the left to bypass the stationary bus blocking our lane."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Accelerate and steer left to pass the stationary bus parked on the right side of the road."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Steer left into the adjacent lane to bypass the stationary bus, as the lane is clear."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Steer right to return to the right lane after clearing the parked bus."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Accelerate and steer left to bypass the stationary bus parked on the right side of the road."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Steer left and accelerate to bypass the stationary bus parked on the right side of the road."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Steer left into the adjacent lane to bypass the stationary bus blocking our lane."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Accelerate and steer left to pass the stationary bus parked on the right side of the road."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Accelerate and change lanes to the left to bypass the stopped bus blocking our lane, as the adjacent lane is clear."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Accelerate and steer left to bypass the stationary bus, as the oncoming vehicle has cleared our path."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to come to a stop behind the stationary bus in our lane."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Decelerate to come to a stop behind the stationary bus ahead in our lane."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane, as it obstructs our path."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to a stop behind the stationary bus in our lane, as it blocks our path."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate to a stop behind the stationary bus ahead in our lane, as it blocks our path."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our travel lane."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane to continue straight along our route."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Decelerate to a stop as the lead bus ahead is stopped in our lane."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Decelerate to a stop behind the stationary bus obstructing our lane."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane, as oncoming traffic in the adjacent lane prevents a safe bypass maneuver."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane, as it obstructs our path."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Decelerate to a complete stop behind the stationary bus blocking our lane."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Decelerate to a complete stop behind the stationary bus blocking our lane, as it obstructs our path ahead."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Decelerate to a stop behind the stationary bus in our lane, as it obstructs our path."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Decelerate to a stop and wait behind the parked bus, as it obstructs our travel lane and blocks our path."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Decelerate to a stop to yield to the oncoming car passing the stationary bus on our right."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Slow to a stop and wait behind the parked bus, as the left lane is blocked by the barrier."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Decelerate to come to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Decelerate to a stop behind the stationary bus blocking our lane."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Decelerate to a stop behind the stationary bus ahead in our lane."}

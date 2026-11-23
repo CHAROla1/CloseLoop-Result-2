@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Decelerate to maintain a safe speed and be ready to yield to oncoming vehicles as we navigate the narrow roadway."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower lead vehicle ahead in our lane."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Decelerate to safely traverse the upcoming speed bump in our lane."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Decelerate and pull over onto the right shoulder to come to a stop, as the roadside guardrail has ended and our forward path is blocked by a roadside structure."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to a stop at the roadside to yield to the overtaking vehicle on our left before proceeding straight along our route."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate and pull over to the right shoulder to stop, as the guardrail and roadside vegetation obstruct our path ahead."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate to a stop and pull over onto the roadside shoulder to yield to the approaching vehicle in the opposing lane."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate and pull over to the right shoulder to come to a stop, as the roadway is clear of traffic."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate and pull over onto the right shoulder to stop, as the roadside guardrail and trees are directly ahead."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate to come to a stop along the right roadside, as our path ahead is clear."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Decelerate and pull over to the right shoulder to pull over and stop, as the lane ahead is clear."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Decelerate to a stop to yield to the overtaking vehicle in the adjacent lane."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Decelerate and steer right to pull over to the roadside to stop, as the roadside guardrail and roadside debris are clear."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate and steer right to pull over to the roadside guardrail to stop."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Decelerate to a complete stop and wait along the roadside to yield to the oncoming vehicle."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate to a stop in our lane as the roadway terminates ahead."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Decelerate to a complete stop in our lane to yield to an oncoming vehicle on the narrow road."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Decelerate and steer right to pull over to the roadside to stop, as the roadside guardrail and roadside vegetation block forward travel."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to a stop in our lane to yield to the vehicle overtaking on our left."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Decelerate to a stop along the right roadside as a pedestrian is walking near the roadway."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to come to a stop in the roadside shoulder to pull over at the right roadside."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to come to a stop as a stationary vehicle is stopped ahead in our lane."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate to a complete stop at the roadside, as we have reached our destination."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Decelerate to come to a stop as the lead vehicle ahead slows down."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Decelerate to come to a stop on the right roadside as we reach our destination."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Brake to a stop as an oncoming vehicle approaches in the opposing lane on the narrow roadway."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Decelerate to a stop along the right roadside, as our route requires a right turn and the road ahead is clear."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Decelerate to a complete stop as we reach our destination."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Decelerate to a stop in our lane to yield to the overtaking vehicle on our left before we pass it."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Decelerate to a stop and wait along the right side of the road to yield to oncoming traffic on the narrow roadway."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Decelerate to a stop in our lane as we approach the upcoming intersection to continue straight along our route."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Decelerate to come to a stop along the right roadside to yield to the overtaking vehicle on our left."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Stop and wait at the roadside, as our route destination has been reached."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Decelerate to come to a stop at the roadside, as a stationary vehicle is parked ahead on the right shoulder."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Decelerate to a complete stop as a pedestrian is walking along the roadside near the guardrail."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Decelerate to a stop along the right roadside as a guardrail obstructs the path ahead."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Decelerate to a stop along the right roadside to yield to the oncoming vehicle on the narrow roadway."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Decelerate to come to a stop at the roadside barrier ahead."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Decelerate to a stop and yield as an oncoming vehicle approaches on the narrow roadway."}

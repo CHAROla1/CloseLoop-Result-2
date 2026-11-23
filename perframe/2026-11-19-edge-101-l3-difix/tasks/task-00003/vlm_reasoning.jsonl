@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Accelerate and steer left into the roadway to complete our turn, as the lead vehicle has cleared our path."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate and stop before the crosswalk to yield to the pedestrian approaching the crosswalk."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Wait behind the stationary vehicle ahead in our lane to yield to traffic passing on our left before merging onto the road."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to come to a stop at the intersection stop line, as required by the stop sign and to yield to the crossing vehicle."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Brake to a stop and wait in the travel lane to yield to the bus approaching from behind before merging right."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate and come to a stop in the travel lane to yield to the overtaking vehicle on our left before merging."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Accelerate and complete the right turn to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Proceed with the right turn at the intersection to follow our route, as the crossing traffic has cleared our path."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Accelerate and steer left into the travel lane to pass the parked vehicle, as the overtaking bus has cleared our path."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Accelerate and steer right onto the roadway to complete the turn to follow our route, as the passing vehicle has cleared our path."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Accelerate and complete the right turn to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Turn right onto the roadway to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Accelerate and complete the right turn to follow our route, as the lead vehicle pulls away and clears our path."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Accelerate and merge left into the through lane to follow our route, as the passing vehicle has cleared our path."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Accelerate and complete the right turn onto the roadway to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Accelerate and turn right onto the roadway as the crossing vehicle has cleared our path."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Accelerate and turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Turn right at the intersection to follow our route, as cross traffic has cleared our path."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Accelerate and turn right onto the roadway to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Accelerate and turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Turn right onto the roadway, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Accelerate and turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Turn right at the intersection to follow our navigation route, as the traffic signal is green."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Turn right onto the road to follow our route, as the lead vehicle pulls away and our path is clear."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Turn right onto the roadway to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Accelerate and turn right onto the roadway to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Turn right at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Decelerate and steer left to enter the parking area, as the target lane is clear."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate and yield to the pedestrian crossing the road ahead."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Decelerate and pull over to the right side of the roadway to come to a stop, as parked vehicles ahead obstruct our lane."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to a stop in the right lane to yield to the overtaking taxi vehicle on our right before changing lanes to follow our route."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate and steer right to pull over toward the curb to stop behind the parked vehicle."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate and pull over to the left curb to park behind the parked vehicle, as the target curb space is clear."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate and pull over to the right curb to park behind the stationary vehicle ahead."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate and execute a U-turn across the opposing lane to reverse our direction of travel, as the roadway is clear of oncoming traffic."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate to a stop and hold position in the left-turn lane, as a stationary vehicle is stopped ahead in our path."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Slow and turn right into the marked slip lane to follow our route, as the path ahead is clear."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Change lanes to the left to position for the upcoming left turn to follow our route."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Change lanes to the left to prepare for our upcoming left turn, as the target lane is clear."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate and steer right to pull over and stop in the curbside parking bay behind the parked vehicle."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Decelerate to prepare to pull over along the roadside to park behind the parked vehicle."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate and execute a U-turn into the open parking space on the left to park in a designated parking stall."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Decelerate to a stop behind the stationary vehicle ahead in our lane as it blocks our path."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Slow down and steer right to pull over to the roadside to park behind the parked vehicle."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to a stop and remain stationary in the parking bay as the vehicle ahead is stopped in our path."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate and steer left to pull over behind the parked vehicle to park."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Pull over to the right curb to park behind the parked vehicle."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Accelerate and merge into the travel lane to continue along our route, as the passing vehicle has cleared our path."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Accelerate and merge right into the travel lane to follow our route, as the passing vehicle has cleared our path."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Accelerate and steer right to merge into the adjacent travel lane as the parked vehicle ahead on the right has cleared our path."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Accelerate and merge into the right lane to follow our route, as the lead vehicle pulls away and our path is clear."}

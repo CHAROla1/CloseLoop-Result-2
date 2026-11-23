@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "The traffic light has turned green, so proceed straight through the intersection to follow our route."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Decelerate approaching the intersection to yield to the vehicle cutting into our lane from the right while planning to continue straight to follow our route."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Continue straight through the junction on our route under the green light, but slow down to yield to the scooter cutting into our lane."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Continue straight through the junction to follow our route under the green light, but yield to the pedestrian crossing the street in our path."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to a stop before the crosswalk to yield to pedestrians crossing our path, despite the green traffic light."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Proceed straight through the intersection to follow our route under the green traffic light, but yield to the vehicle cutting in from the right."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Accelerate to proceed through the intersection under the green traffic signal, as the crossing car has cleared our path."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light is green and the lead vehicle has pulled ahead."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the crossing motorcycle has cleared our path and the lead vehicle is pulling ahead."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Proceed straight through the intersection under the green light to follow our route, as the lead vehicle has cleared our path."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Proceed straight through the intersection under the green light to follow our route, as the lead vehicle has moved forward."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal has turned green."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal is green."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate and maintain a safe following distance behind the scooter rider traveling ahead in our lane."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter rider ahead in our lane."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead in our lane slows down."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter ahead in our lane."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle and traffic queue ahead slow down."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead scooter and traffic queue ahead."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "<NOMINAL>"}

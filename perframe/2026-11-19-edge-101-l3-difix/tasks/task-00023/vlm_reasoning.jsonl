@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate and yield to the vehicle circulating in the roundabout before entering to follow our route."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Brake firmly to yield to the vehicle circulating across our path in the roundabout before proceeding straight to follow our route."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Brake firmly to a stop before the roundabout to yield to circulating traffic, while maintaining a safe following distance behind the slowing bus."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to a stop before the roundabout to yield to circulating traffic and prepare to take the second exit to follow our route."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to yield to the vehicle circulating in the roundabout ahead before entering to follow our route."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Decelerate to a stop before the roundabout crosswalk to yield to circulating traffic."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Decelerate to yield to circulating vehicles in the roundabout before entering to follow our route."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing bus ahead as we approach the roundabout."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Continue straight through the roundabout to follow our route, as the bus ahead is clearing our immediate path."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Decelerate to yield to the vehicle circulating in the roundabout before entering to follow our route."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Proceed into and circulate through the roundabout to follow our route, as the bus has cleared our path."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Decelerate to yield to circulating vehicles in the roundabout before entering to follow our route."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Proceed through the roundabout to take the second exit to follow our route, as the circulatory roadway is clear of conflicting traffic."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Accelerate and proceed into the roundabout to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Decelerate to yield to circulating vehicles in the roundabout before entering to follow our route."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Decelerate to yield to the circulating vehicle crossing our path in the roundabout."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Proceed into the roundabout to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Decelerate to yield to circulating vehicles in the roundabout before entering to follow our route."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Decelerate while approaching the roundabout to yield to circulating vehicles crossing our path, intending to continue straight to follow our route."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Proceed into the roundabout to follow our route, as the circulating vehicle has cleared our path."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Decelerate to a stop before the roundabout yield line to yield to circulating traffic crossing our path, while following our route toward the third exit."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Decelerate to yield to circulating traffic in the roundabout before entering to follow our route."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Decelerate on approach to the roundabout to yield to circulating traffic, planning to continue straight to follow our route."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Decelerate to yield to the vehicle circulating inside the roundabout ahead and prepare to enter to follow our route."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Decelerate and yield to circulating vehicles in the roundabout before entering to follow our route."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Decelerate to yield to the vehicle crossing from the left in the roundabout before entering to follow our route."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead bus as it slows down to enter the roundabout."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Decelerate to yield to the vehicle circulating in the roundabout across our path."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate to yield to the vehicle crossing our path in the roundabout before continuing straight to follow our route."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Decelerate to yield to the vehicle circulating through the roundabout across our path, while following our route toward the upcoming exit."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Decelerate and yield at the roundabout entrance as a vehicle crosses our path from the left."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Decelerate to yield to circulating traffic in the roundabout before entering to follow our route."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Decelerate to a stop before the roundabout yield line to yield to circulating traffic and prepare to turn left to follow our route."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Decelerate while approaching the roundabout to yield to circulating traffic, as the lead bus ahead is braking."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Decelerate to yield to circulating traffic at the roundabout entrance before entering to follow our route."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Continue slowing toward the roundabout entry stop line, as the traffic light has turned amber."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Decelerate to yield to the vehicle circulating from our left across our path while approaching the roundabout to follow our route."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate and yield at the roundabout entrance for circulating traffic and the amber traffic light to follow our route."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Decelerate to yield to the vehicle crossing our path inside the roundabout."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Decelerate to yield to the circulating vehicle crossing our path in the roundabout while approaching the roundabout to follow our route."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Decelerate to yield to the vehicle cutting into our lane ahead of us and prepare to enter the roundabout to follow our route."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to yield to the crossing vehicle in the roundabout before entering to follow our route."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Slow down and yield as vehicles enter the roundabout from the left across our path."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate while entering the roundabout to yield to circulating vehicles crossing our path, following our route."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Accelerate and turn right through the roundabout to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate while approaching the roundabout to yield to circulating traffic before entering to follow our route."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Proceed into and circulate through the roundabout to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate and yield at the roundabout entrance as a vehicle crosses from our left across our path."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate while approaching the roundabout to yield to circulating traffic and prepare to take the first exit to follow our route."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Decelerate and yield as vehicles circulating through the roundabout cross our path."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Decelerate to yield to circulating vehicles in the roundabout before entering to follow our route."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Decelerate to yield to circulating traffic in the roundabout before proceeding straight to follow our route."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate while entering the roundabout to yield to circulating traffic and follow the lead vehicle."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Proceed into the roundabout and take the first exit to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate to yield to circulating traffic in the roundabout before entering to follow our route."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Proceed into and through the roundabout to take the second exit to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Proceed into the roundabout and turn right to follow our route, as the circulating vehicle has cleared our path."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Continue cautiously toward the junction to follow our route, yielding to the cars crossing our intended exit and the amber signal."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Slow down to yield to the circulating vehicle in the roundabout before entering to follow our route."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Decelerate and yield at the roundabout entrance to circulating traffic before entering to follow our route."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to yield to the vehicle cutting into our lane from the left, while following our route toward the roundabout."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to yield to the silver SUV crossing our path from the left as we approach the roundabout exit."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate to yield to the vehicle cutting across our path from the left."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Decelerate and yield as a vehicle cuts across our path from the left."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Decelerate to yield to the vehicle cutting across our path in the roundabout."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Proceed into and circulate through the roundabout to take the exit to follow our route, as the circulating traffic has cleared our path."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Decelerate and yield behind the lead vehicle as we approach the roundabout exit to follow our route, as the lead vehicle slows down ahead of us."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Accelerate to complete the right turn to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Decelerate to yield to the vehicle cutting into our lane from the left as we approach the roundabout."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Accelerate and proceed through the roundabout exit to follow our route, as the circulating traffic has cleared our path."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Decelerate to yield to the crossing vehicle in the roundabout and prepare to stop for the traffic light ahead, while following our route to turn right."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Decelerate to a near stop at the roundabout entrance to yield to crossing traffic on the roundabout."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Decelerate to a stop to yield to the vehicle cutting across our path and maintain a safe following distance."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Brake to a stop and yield as a vehicle cuts across our path in the roundabout."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Decelerate and yield to the vehicle cutting in front of us while continuing to approach the roundabout to follow our route."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Brake to a stop before the roundabout yield line to yield to circulating traffic crossing our path."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Decelerate to yield to the vehicle cutting across our path in the roundabout."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Decelerate to yield to the vehicle cutting across our path from the left while continuing to approach the roundabout."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Decelerate and yield as a vehicle cuts across our path in the roundabout."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Decelerate to yield to a crossing vehicle in the roundabout while following our route."}

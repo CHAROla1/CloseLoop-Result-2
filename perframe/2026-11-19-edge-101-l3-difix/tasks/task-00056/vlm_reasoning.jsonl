@@ -1,0 +1,84 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Decelerate to a stop before the stop line for the overhead amber traffic light to follow our route straight."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate to a stop before the crosswalk for the flashing yellow warning beacon and flashing red beacon to follow our route."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Decelerate to come to a stop before the pedestrian crossing as the overhead traffic light displays a flashing yellow signal."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Brake to a stop before the crosswalk, as the overhead lane control signal has turned yellow."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Continue decelerating to stop at the stop line for the flashing red traffic light to follow our route straight, as the lead truck has cleared our path."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Stop and wait at the stop line before the pedestrian crossing to obey the overhead traffic signal and follow our route straight, as the overhead signal displays a red light."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Brake to a stop before the intersection stop line to continue straight on our route, as the overhead traffic light has turned yellow."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Change lanes into the right lane as the overtaking truck has cleared our rear right side, positioning behind the truck ahead."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to stop at the stop line before the intersection to continue straight on our route, as the overhead traffic signal displays a flashing red arrow."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Change lanes into the right lane behind the overtaking truck to follow our route, as the truck has cleared the target lane."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Change lanes to the right to prepare for our upcoming right turn, as the truck has cleared ahead."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Accelerate and change lanes to the right into the open gap behind the truck to follow our route, as the truck has cleared ahead."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Change lanes to the right to follow our route for the upcoming right turn, as the overtaking truck has cleared the adjacent lane."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Change lanes to the right into the adjacent lane as the overtaking truck pulls ahead and opens a usable gap."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Change lanes to the right to bypass the stopped truck ahead, as the overtaking truck has cleared our target lane."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Accelerate and merge right behind the truck as the truck has cleared our path."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Accelerate and merge into the right lane behind the truck to follow our route."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Change lanes into the right-turn lane to prepare for our upcoming right turn."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Proceed straight through the intersection to follow our route while decelerating to stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Change lanes to the right to follow our route, as the overtaking truck has cleared our path."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Decelerate to come to a stop before the pedestrian crossing to follow our route, as the overhead traffic light has turned amber."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the overhead traffic light has turned green."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the lead truck has cleared our path."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Decelerate to a stop and wait at the stop line for the red traffic light ahead."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Decelerate to a stop before the crosswalk and wait for the red traffic light to turn green."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Decelerate and steer right to pull over and stop at the roadside, as we have reached our destination."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Decelerate to a stop before the pedestrian crossing as the overhead traffic light has turned yellow."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Decelerate to a stop at the stop line before the intersection to follow our route straight ahead, as the overhead traffic light is red."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Decelerate to a stop before the intersection stop line, as the traffic light ahead is red."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light to continue straight on our route."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate to come to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Stop and wait before the intersection stop line for the red traffic light."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Decelerate to come to a stop at the stop line for the red traffic light."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Change lanes to the right to follow our route straight, as the truck ahead is turning right and slowing down."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Decelerate to a stop before the intersection stop line for the red traffic light."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Decelerate to a stop before the intersection stop line to follow our route, as the traffic light is red."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Accelerate to proceed straight through the intersection to follow our route, as the truck ahead has cleared our path."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Decelerate to a stop before the crosswalk and stop line as the overhead traffic light has turned yellow."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate to a stop before the intersection stop line as the traffic light ahead has turned yellow."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Decelerate to come to a stop before the intersection crosswalk as the overhead traffic light has turned yellow."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Decelerate to a stop before the crosswalk to yield to the overtaking vehicle in the adjacent lane."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Decelerate to a stop before the crosswalk as the overhead traffic light is red."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to a complete stop before the stop line and crosswalk for the red traffic light."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to a stop before the intersection stop line to follow our route straight, as the overhead traffic light is red."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate to come to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate and come to a stop at the stop line before the intersection as the traffic light has turned yellow."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate to come to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate to a stop before the intersection crosswalk as the overhead traffic light has turned yellow."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green and the lead truck ahead departs."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the lead truck has departed and the traffic signal remains red."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Decelerate to a stop before the pedestrian crossing and wait for the red traffic light to turn green."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate to come to a stop before the intersection stop line, as the overhead traffic light has turned yellow."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the lead truck has cleared our path."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the lead truck has cleared our path and the traffic light has turned green."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Accelerate and proceed straight through the intersection under the green traffic light, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}

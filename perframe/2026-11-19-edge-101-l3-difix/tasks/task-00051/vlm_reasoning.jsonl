@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Change lanes to the left to follow our route and pass slower traffic ahead."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Change lanes to the left to follow our route and avoid the upcoming right exit, as the adjacent lane is clear."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Change lanes to the left to follow our route toward the upcoming left fork."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Change lanes to the left to follow our route and position for the upcoming fork."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Change lanes to the left to bypass slower traffic ahead in our lane."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Change lanes to the left behind the lead vehicle, as the adjacent lane offers an open gap and the target lane provides a clear path."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Change lanes to the left to follow our route and prepare for the upcoming left exit, while adjusting speed to merge safely behind the lead vehicle in the target lane."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Change lanes to the left to prepare for the upcoming left fork as directed by navigation, while moderating speed for the slower lead vehicle ahead."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Change lanes to the left to follow our route and remain on the through highway, as the adjacent lane is clear."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Change lanes to the left to position for the upcoming fork and follow our route, as the adjacent lane is clear."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Change lanes to the left to follow our route toward the upcoming fork."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Change lanes to the left to follow our route and avoid the upcoming exit, as the vehicle in the adjacent lane has pulled ahead and opened a clear gap."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Change lanes to the left to follow our route straight, as the right lane diverges toward an exit."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Change lanes to the left to enter the leftmost lane for our route, as the adjacent vehicle has cleared behind us."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Change lanes to the left to position for our upcoming route continuation."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Change lanes to the left to follow our route and avoid the upcoming right exit."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Change lanes to the left to follow our route for the upcoming left fork."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Change lanes to the left to follow our route and avoid the upcoming right exit, as the target lane is clear."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Change lanes to the left to prepare for our upcoming left turn as directed by navigation."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Change lanes to the left to follow our route and continue straight along the highway, as the adjacent lane offers a clear gap behind the lead vehicle."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Change lanes to the left to follow our route and position for the upcoming left turn, as the target lane is clear."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Change lanes to the left to follow our route and position for the upcoming left fork, as the adjacent lane is clear."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Change lanes to the left to follow our route and remain on the through highway, as indicated by the overhead destination signage."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Change lanes to the left to follow our route for the upcoming left turn."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Change lanes to the left to follow our route and avoid the upcoming exit."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Change lanes to the left into the adjacent lane as the target lane is clear behind the forward lead vehicle."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Change lanes to the left to position for the upcoming left fork as indicated by overhead signs."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Change lanes to the left to follow our route, as the target lane has cleared behind the lead vehicle."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Change lanes to the left to follow our route and avoid the upcoming right exit."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Merge left into the adjacent lane to follow our route and avoid the exit-only lane, as the target lane is clear."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Change lanes to the left to merge onto the highway, as the adjacent lane is clear."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Change lanes to the left to bypass the stationary vehicle blocking our lane, as the adjacent lane is clear."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate and steer right to follow the temporary diverted lane around the roadwork barrier, as the left lane is blocked by a parked truck."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate and steer right to follow the temporary diverted corridor delineated by the concrete barrier and traffic beacons."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate to maintain a safe following distance as a stationary vehicle on the right constrains our lane ahead."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle and traffic queue ahead slow down."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Brake heavily to maintain a safe following distance as the lead vehicle ahead brakes and slows down."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Steer right to move into the open lane, as the vehicle towing a trailer is now behind us and the lead vehicle is slowing down."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Brake firmly to a stop as the lead vehicle ahead in our lane is stationary in a traffic queue."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Brake heavily to come to a stop as the lead vehicle ahead has braked and come to a halt in our lane."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate to a stop behind the stationary vehicle blocking our lane as traffic in the adjacent lane prevents a lane change."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Brake to a complete stop behind the stationary truck obstructing our lane, as it blocks our forward path."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Decelerate to a stop behind the lead vehicle as it slows and stops in the traffic queue ahead."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "The truck has fallen to the right and is now close ahead, so brake firmly to stop behind it in our lane."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to a complete stop in our lane as the lead vehicle ahead is stopped in the traffic queue."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Decelerate to come to a stop behind the stationary vehicle ahead in our lane."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to a stop behind the stationary vehicle ahead in our lane as traffic in the adjacent lane prevents an immediate lane change."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to a stop behind the lead vehicle as it slows and stops in our lane."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate to maintain a safe following distance as the vehicle ahead brakes heavily and slows down in our lane."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Steer right to return to our lane, as the lead vehicle has pulled ahead and cleared our path."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead slows down."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Decelerate to maintain a safe following distance as the vehicle ahead brakes and slows down."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Accelerate and merge left into the through lane to follow our route, as the passing SUV has cleared our path and the truck ahead pulls away."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Accelerate and change lanes to the right to move past the slower traffic ahead, as the passing vehicle on our right has cleared our path."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Accelerate and merge onto the highway to follow our route, as the adjacent vehicle has cleared our path."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Accelerate to follow the lead truck as it moves forward and clears our lane."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Accelerate and change lanes to the right, as the adjacent vehicle has cleared our path."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Accelerate and change lanes to the right as the adjacent vehicle has pulled ahead and opened a gap."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "<NOMINAL>"}

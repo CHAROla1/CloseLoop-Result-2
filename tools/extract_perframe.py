@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""提取闭环评测批次的每帧中间结果与场景 GT 自车轨迹到 CloseLoop-Result/perframe/。
+"""提取闭环评测批次的每帧中间结果与场景 GT 自车轨迹到 CloseLoop-Result-2/perframe/。
 
 用法：修改下方 SRC / REG_V5 / REG_V6 / DST 四个常量后 `python3 extract_perframe.py`。
 
 - 遍历主批次 registry 的全部 task；
 - 主批次中提前终止（缺 vlm_reasoning.jsonl）的任务，若同场景在重跑批次 registry
   （REG_V6）有成功运行，则整体改用重跑批次的 run 数据（csv/steps/vlm/metrics 同源，
-  保证单任务数据自洽）；无重跑批次可置 REG_V6 = None；
+  保证单任务数据自洽）；无重跑批次可置 REG_V6 = None（不完整任务记入 skipped_tasks.json）；
 - GT 自车轨迹始终取 data/scenes/<sample>/trajectories/ego.json（与 run 无关）。
 
-首次使用：2026-11-13-v5（64 task，其中 8 个取自 2026-11-13-v6 重跑），
-产出结构见 perframe/2026-11-13-v5/README.md。
+产出：tasks/<task>/{ego_trajectory.csv, planned_trajectories.jsonl, vlm_reasoning.jsonl,
+metrics.parquet, gt_ego_trajectory.json} + mapping.csv + skipped_tasks.json。
+字段说明见 CloseLoop-Result 仓库 perframe/2026-11-13-v5/README.md。
 """
 import csv
 import glob
@@ -18,10 +19,10 @@ import json
 import os
 import shutil
 
-SRC = "/mnt/workspace/WM_Group/tang-workspace/alpasim_render_bk/Alpasim_WorldModel_ClosedLoop"
-REG_V5 = f"{SRC}/cluster_config/cluster_registry/2026-11-13-v5"
-REG_V6 = f"{SRC}/cluster_config/cluster_registry/2026-11-13-v6"
-DST = "/mnt/workspace/WM_Group/tang-workspace/CloseLoop-Result/perframe/2026-11-13-v5"
+SRC = "/mnt/workspace/WM_Group/tang-workspace/alpasim_renderer/Alpasim_WorldModel_ClosedLoop"
+REG_V5 = f"{SRC}/cluster_config/cluster_registry/2026-11-19-edge-101-l3-difix"
+REG_V6 = None  # 同场景重跑批次 registry；difix/nodifix 是不同配置变体，不能互为重跑
+DST = "/mnt/workspace/WM_Group/tang-workspace/CloseLoop-Result-2/perframe/2026-11-19-edge-101-l3-difix"
 
 STEPS_FIELDS = [
     "step", "time_now_us", "time_query_us", "t0_us", "scene_id",
@@ -47,23 +48,24 @@ def one(pattern):
 
 def main():
     v5 = task_map(REG_V5)
-    v6 = task_map(REG_V6)
+    v6 = task_map(REG_V6) if REG_V6 else {}
     v6_by_sample = {s: tid for tid, (s, st) in v6.items() if st == "succeeded"}
+    name_v5, name_v6 = os.path.basename(REG_V5), os.path.basename(REG_V6) if REG_V6 else ""
 
     with open(f"{SRC}/data/samples.json") as f:
         samples = json.load(f)
 
     os.makedirs(f"{DST}/tasks", exist_ok=True)
-    rows, rerun, incomplete = [], [], []
+    rows, rerun, skipped = [], [], []
 
     for tid, (sample, state) in v5.items():
         run = f"{REG_V5}/runs/{tid}"
-        src_reg, src_tid = "2026-11-13-v5", tid
-        # v5 run 数据不完整时改用 v6 重跑
+        src_reg, src_tid = name_v5, tid
+        # 主批次 run 数据不完整时改用同场景重跑批次
         if one(f"{run}/rollout/rollouts/*/*/vlm_reasoning.jsonl") is None:
             alt = v6_by_sample.get(sample)
             if alt and one(f"{REG_V6}/runs/{alt}/rollout/rollouts/*/*/vlm_reasoning.jsonl"):
-                src_reg, src_tid, run = "2026-11-13-v6", alt, f"{REG_V6}/runs/{alt}"
+                src_reg, src_tid, run = name_v6, alt, f"{REG_V6}/runs/{alt}"
                 rerun.append((tid, sample, alt))
 
         out = f"{DST}/tasks/{tid}"
@@ -98,16 +100,16 @@ def main():
         if os.path.exists(gt):
             shutil.copy2(gt, f"{out}/gt_ego_trajectory.json")
             got.append("gt")
-        else:
-            incomplete.append((tid, sample, "gt missing"))
 
-        if len(got) < 5:
-            incomplete.append((tid, sample, f"only {got}"))
+        missing = [n for n in ["ego", "plan", "vlm", "metrics", "gt"] if n not in got]
+        if missing:
+            skipped.append({"task_id": tid, "sample": sample,
+                            "reason": f"缺少: {','.join(missing)} (源 {src_reg}/{src_tid})"})
 
         meta = samples.get(sample, {})
         rows.append({
             "task_id": tid, "sample": sample,
-            "source_name": meta.get("source_name", ""),
+            "source_name": meta.get("source_name", sample),
             "scene_id": meta.get("scene_id", ""),
             "source_registry": src_reg, "source_task": src_tid,
         })
@@ -117,10 +119,16 @@ def main():
         w.writeheader()
         w.writerows(rows)
 
-    print(f"tasks: {len(rows)}, rerun-from-v6: {len(rerun)}")
+    with open(f"{DST}/skipped_tasks.json", "w") as f:
+        json.dump(skipped, f, ensure_ascii=False, indent=2)
+
+    print(f"tasks: {len(rows)}, rerun: {len(rerun)}, skipped: {len(skipped)}")
     for tid, sample, alt in rerun:
-        print(f"  v5 {tid} ({sample}) <- v6 {alt}")
-    print(f"incomplete: {incomplete if incomplete else 'none'}")
+        print(f"  {tid} ({sample}) <- rerun {alt}")
+    for s in skipped[:10]:
+        print(f"  skip {s['task_id']}: {s['reason']}")
+    if len(skipped) > 10:
+        print(f"  ... 共 {len(skipped)} 个，详见 skipped_tasks.json")
 
 
 if __name__ == "__main__":

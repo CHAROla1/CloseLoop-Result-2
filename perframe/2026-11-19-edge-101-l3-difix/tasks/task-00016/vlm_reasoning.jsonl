@@ -1,0 +1,84 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead van ahead is braking."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to a stop in our lane as the lead vehicle ahead has braked to a halt in traffic."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower lead van ahead in our lane."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to a stop before the roadway to avoid colliding with the lead van and traffic ahead."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Decelerate to a stop and wait behind the stationary van blocking our lane."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to a stop and wait as the lead van ahead slows down to pull over to the right."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Decelerate to a stop behind the stationary van blocking our lane."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead vehicle as it brakes ahead."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Change lanes to the right to follow our route and position for the upcoming turn."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Change lanes to the right to position for our upcoming route turn, as the adjacent lane is clear."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Change lanes to the right to follow our route, as the current lane is designated for left turns only."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Change lanes to the right to follow our route and position for the upcoming right turn, as the adjacent lane is clear."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Change lanes to the right to follow our route, as the target lane is clear."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Change lanes to the right to follow our route, as the current lane is restricted to bus traffic."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Change lanes to the right to move into the open lane, as the target lane ahead is clear."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Change lanes to the right lane to prepare for our upcoming route turn."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Change lanes to the right to prepare for the upcoming right turn according to our route."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Merge into the right lane behind the scooter, as the adjacent lane offers adequate clearance."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Change lanes to the right to follow our route and prepare for the upcoming right turn."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}

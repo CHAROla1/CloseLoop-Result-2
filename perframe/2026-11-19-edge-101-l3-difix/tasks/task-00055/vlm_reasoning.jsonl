@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Decelerate and turn left at the T-junction to follow our route, yielding right of way as required by the yield sign."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Decelerate to approach the intersection and prepare to yield, as required by the give-way sign."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to yield at the intersection for the yield sign and prepare to turn left to follow our route."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Slow down and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Slow down and turn left at the intersection to follow our route, yielding right of way as required by the yield sign."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Decelerate to approach the intersection to turn left to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Decelerate approaching the intersection to yield and prepare for a left turn to follow our route."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Decelerate to approach the intersection and prepare to turn left to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Decelerate on approach to the intersection to prepare for a left turn to follow our route, while observing the yield sign ahead."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Decelerate to approach the intersection and prepare to yield before turning left to follow our route."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as the yield-controlled junction is clear of cross traffic."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as the yield-controlled junction is clear of cross traffic."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Decelerate on approach to the intersection to yield as required by the yield sign and prepare for a left turn to follow our route."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as the roadway is clear."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding right of way as required by the give-way sign."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Decelerate to approach the upcoming T-intersection and prepare to turn left to follow our route."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Decelerate to approach the intersection to turn left to follow our route, yielding to potential cross traffic as governed by the yield sign."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Decelerate and turn left at the T-junction to follow our route, yielding to any cross traffic as required by the give-way sign."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Decelerate to yield at the intersection before turning left to follow our route, as governed by the yield sign and the yield sign."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as the roadway is clear of cross traffic."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, yielding as required by the give-way sign."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Slow down and turn left at the intersection to follow our route, yielding to any cross traffic as required by the give-way sign."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Decelerate to approach the intersection and prepare to yield at the give-way sign before turning left to follow our route."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Turn left at the intersection to follow our route, slowing to check for cross traffic as governed by the yield sign."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as the roadway is clear of conflicting traffic."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as the roadway is clear."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Decelerate and yield at the intersection for the give-way sign and the vehicle approaching from the left on the cross street, preparing to turn left to follow our route."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Decelerate and yield at the intersection to check for cross traffic before turning left to follow our route."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Decelerate to approach the intersection for our planned left turn to follow our route."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Decelerate and yield at the intersection to check for cross traffic before turning left to follow our route."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Turn left at the intersection to follow our route, as the roadway is clear of traffic."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Decelerate and turn left at the intersection to follow our navigation route, as our path is clear of conflicting traffic."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate to approach the T-junction and prepare to turn left to follow our route."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Decelerate and creep forward to check for cross traffic and prepare to turn left at the T-intersection to follow our route."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Decelerate to approach the T-intersection and prepare to turn left to follow our route."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Decelerate to a stop at the T-intersection to yield right of way before turning left to follow our route."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Decelerate and turn left at the T-intersection to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Slow down and turn left at the T-intersection to follow our route, as the cross street is clear."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate and turn left at the T-intersection to follow our route, as the cross street is clear."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate and turn left at the T-intersection to follow our route, as the cross street is clear of traffic."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate and turn left at the T-intersection to follow our route."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate to a stop and yield at the T-intersection to check for cross traffic before turning left to follow our route."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Decelerate and yield at the intersection before turning left to follow our route, as cross traffic has the right of way."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Stop at the stop line for the stop sign before turning left to follow our route."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Turn left at the intersection to follow our route."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Turn left onto the cross street to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Decelerate and steer left to enter the intersection and turn left onto the cross street, as our path is clear."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to a complete stop at the intersection to check for cross traffic before turning left to follow our route."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Turn left onto the cross street to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Turn left onto the cross street to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Decelerate to a stop at the stop line for the stop sign before turning left to follow our route."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Turn left at the intersection to follow our route, as the roadway is clear of cross traffic."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Turn left onto the intersecting road to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Turn left at the intersection to follow our route, as the cross street is clear of conflicting traffic."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Turn left at the intersection to follow our route, as the roadway is clear of cross traffic."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Turn left onto the cross street to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Turn left onto the crossroad to follow our route, as the intersection is clear of cross traffic."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Turn left at the intersection to follow our route, as the cross street is clear of approaching traffic."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Turn left at the intersection to follow our route, as the roadway is clear."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Decelerate and turn left at the intersection to follow our route, as our path is clear of conflicting traffic."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Proceed with the left turn through the intersection to follow our route, as cross traffic is clear."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Turn left onto the cross street to follow our route, as the intersection is clear."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Turn left onto the cross street to follow our route, as the intersection is clear."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Turn left at the intersection to follow our route, as cross traffic is clear."}

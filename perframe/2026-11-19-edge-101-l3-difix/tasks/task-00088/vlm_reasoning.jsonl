@@ -1,0 +1,76 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Proceed and turn left to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Remain stopped at the road edge to ensure clearance from the guardrail and tree ahead before proceeding."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Stop and remain stationary to yield to an approaching vehicle on the crossroad before turning left to follow our route."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Proceed forward and turn left to follow the roadway around the barrier as the roadway is clear."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Proceed with the left turn at the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Proceed and turn left onto the roadway to follow our route, as the roadway is clear of cross traffic."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Pull out from the roadside and turn left onto the roadway to follow our route."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Pull out from the shoulder and turn left onto the roadway to follow our route, as the roadway is clear."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Turn left onto the roadway to follow our route, as the roadway is clear."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Turn left at the T-junction to follow our route, as the roadway ahead ends at a guardrail."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Turn left onto the roadway to follow our route, as the road is clear of cross traffic."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Turn left onto the roadway to follow our route, as the path is clear."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Turn left onto the roadway to follow our route, as the path is clear."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Pull forward out of the shoulder and turn left into the roadway to follow our route."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Turn left onto the roadway as the path is clear."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Accelerate and execute a U-turn in the center of the roadway to follow our route, as the roadway is clear of traffic."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Turn left onto the roadway to follow our route, as the roadway is clear of cross traffic."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Accelerate and turn left onto the roadway to follow our route, as the roadway ahead is clear."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Accelerate and turn left to follow the roadway, as the road ahead ends at a guardrail and the path is clear."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Turn left onto the road to follow our route, as the path is clear."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Stop and remain stationary as the guardrail ahead blocks our path."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Stop and remain stationary as the guardrail blocks our path ahead."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Stop and remain stationary in our lane as the guardrail and roadside barrier block forward travel."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Stop and wait to yield to the vehicle approaching from behind in the opposing lane before executing our route's left turn."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Slow down and execute a U-turn to reverse direction, as the road terminates ahead at a guardrail."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Stop and remain stationary as the guardrail blocks our path ahead."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Decelerate and stop before the guardrail to prepare to turn left into the facility entrance."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Decelerate to a stop as the blue guardrail directly ahead blocks our path."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate and come to a stop along the roadside to avoid colliding with the guardrail ahead."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Decelerrake to a stop as a stationary vehicle is stopped ahead in our path."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Slow down none so when without making others into the bridge who were joining until others were close before; across regular-facing until among past towards object out from givenTraverse only until basedCurrentlyTo the debris."}

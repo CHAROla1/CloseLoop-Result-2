@@ -1,0 +1,84 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate to yield to the pedestrian crossing the street in the crosswalk ahead."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Decelerate to yield to the pedestrian crossing the street on the crosswalk ahead."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to a stop to yield to the pedestrian crossing the street at the crosswalk ahead."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Brake to a stop before the pedestrian crosswalk to yield to the pedestrian crossing our path."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to a stop before the marked crosswalk to yield to pedestrians crossing the roadway."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Accelerate and proceed straight through the crosswalk to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Brake to yield to the pedestrian crossing the street in our path while continuing straight through the intersection to follow our route."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to yield to the vehicle pulling out from the right curb and entering our lane ahead."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Decelerate to yield to the vehicle pulling out from the right and cutting into our path."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the preceding vehicle has cleared our path."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the lead vehicle has cleared our path."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Accelerate and proceed straight across the crosswalk to follow our route, as the crossing pedestrian has cleared our path."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Accelerate forward to follow our route as the lead vehicle pulls away and clears our path."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing scooter rider has cleared our path."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing pedestrian has cleared our path."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the lead vehicle has cleared our lane."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Proceed straight through the intersection to follow our route, as our path remains clear."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Slow down and maintain a reduced speed to follow the motorcycle ahead in our lane, as oncoming traffic prevents overtaking."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower moped ahead in our lane."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead scooter ahead slows down."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead scooter rider in our lane."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter ahead in our lane."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter ahead in our lane."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead scooter rider in our lane."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate to maintain a safe following distance behind the scooter rider directly ahead in our lane."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate to maintain a safe following distance behind the cyclist ahead in our lane."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter rider ahead."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Decelerate to follow the scooter rider ahead and maintain a safe following distance."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower cyclist ahead in our lane."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead scooter ahead in our lane."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter rider ahead in our lane."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter rider ahead in our lane."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Decelerate to maintain a safe following distance as a person in a wheelchair and a scooter ahead in our lane slow down in the roadway."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter rider ahead in our lane."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to maintain a safe following distance behind the pedestrian in the wheelchair ahead."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower lead scooter ahead in our lane."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower motorcyclist ahead in our lane."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead scooter rider traveling ahead in our lane."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing scooter rider and traffic queue ahead."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the person riding a scooter ahead in our lane."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower moped ahead in our lane."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Decelerate to maintain a safe following distance behind the cyclist ahead in our lane."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Decelerate and maintain a reduced speed to safely pass the person riding a scooter and the stopped vehicle on the right."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower scooter rider ahead in our lane."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Decelerate to maintain a safe following distance as a person on a wheelchair moves into the lane ahead of us."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead cyclist and scooter rider slow down ahead in our lane."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Decelerate to maintain a safe following distance as a cyclist and a pedestrian in a wheelchair travel ahead in our lane."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead cyclist ahead slows down."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Decelerate to maintain a safe following distance as a pedestrian pushing a stroller crosses the road ahead in our lane."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Decelerate to maintain a safe following distance as a pedestrian with a stroller moves into our lane ahead."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Accelerate and steer left to pass the pedestrian and parked vehicle as the oncoming vehicle clears our path."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Accelerate and proceed forward as the pedestrian in the wheelchair has cleared our travel lane."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Accelerate and steer left to pass the parked vehicle and return to our lane, as the oncoming vehicle has cleared our path."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Accelerate and steer left to pass the cyclist ahead, as the oncoming vehicle has cleared our path."}

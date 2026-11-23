@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light is green."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal is green."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Decelerate to come to a stop before the crosswalk as the traffic light has turned yellow."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Continue straight through the intersection to follow our route, as the traffic light is green."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light while planning to continue straight to follow our route."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Continue straight through the intersection to follow our route, as the overhead traffic light is green."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Continue straight through the intersection to follow our route, as the signal governing our through lane is green."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal is green."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light is green."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the lead vehicle has cleared our path and the traffic light is green."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal is green."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal is green and the lead vehicle has cleared ahead."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light is green."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light is green and the lead vehicle ahead departs."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light is green."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic signal is green."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the traffic light has turned green."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Change lanes to the left to overtake the slower lead vehicle ahead."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Change lanes to the left to bypass the parked vehicle ahead in our lane."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Change lanes to the left to overtake the slower lead vehicle ahead."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Change lanes to the left to overtake the slower lead vehicle ahead, as the adjacent lane is clear."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Change lanes to the left to follow our route and position for the upcoming left turn."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Change lanes to the left to move into the through lane to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Change lanes to the left to overtake the slower lead vehicle ahead of us."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Change lanes to the left to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Change lanes to the left to overtake the slower lead vehicle, as the adjacent lane is clear."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Change lanes to the left to overtake the slower lead vehicle ahead."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Change lanes to the left to overtake the slower vehicle ahead, as the adjacent lane is clear."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Change lanes to the left to follow our route, as the right lane is designated for bus traffic."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Change lanes to the left to follow our route, as the current lane becomes a right-turn lane."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Change lanes to the left to follow our route, as the current lane diverges into a right-turn lane."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Change lanes to the left to follow our route, as the right lane branches off ahead."}

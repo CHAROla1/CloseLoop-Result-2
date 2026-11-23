@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Decelerate to a stop before the roundabout's exit as the traffic light has turned red."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate to a stop at the stop line before the roundabout to follow our route, as required by the posted stop sign."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Brake to a stop to yield to the scooter rider entering the roundabout ahead of us."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to yield to the scooter crossing our path from the right."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Brake firmly to yield to the scooter crossing our path from the right."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Keep easing into the roundabout toward the third exit on our route, as the crossing scooter has moved beyond our immediate path."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Proceed through the roundabout to take the second exit to follow our route, as the circular roadway is clear of conflicting traffic."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Accelerate and steer left along the curve to continue along our route, as the crossing scooter has cleared our path."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Enter and navigate the roundabout to take the third exit to follow our route, as the circulating roadway is clear of conflicting traffic."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Proceed through the roundabout to take the second exit to follow our route, as the circulatory roadway is clear."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Proceed into and circulate the roundabout to follow our route, as the crossing vehicle has cleared our path."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Enter and navigate the roundabout to follow our route, as the circulatory roadway is clear of conflicting traffic."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Navigate through the roundabout to take the third exit to follow our route, as the circulatory roadway is clear."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Enter the roundabout to follow our route, as the circulatory roadway is clear."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Take the roundabout's third exit to follow our route, as the roadway ahead is clear."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Enter and circulate the roundabout to follow our route, as the roadway ahead is clear."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Proceed through the roundabout to take the third exit to follow our route, as the circulating roadway is clear."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Follow the roundabout roadway to continue along our route toward the exit, as guided by navigation."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Continue circulating through the roundabout to follow our route, as our path remains clear."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Continue circulating through the roundabout to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Proceed through the roundabout to take the exit to follow our route, as the traffic light has turned green."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Bear left through the roundabout to follow our route, as our path is clear."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Proceed through the roundabout to take the third exit to follow our route, as our path is clear."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Slow down and follow the roundabout to the left to continue along our route, as the roadway curves around the central island."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead truck as it slows down ahead of the roundabout exit."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate to yield to the crossing semi-truck while navigating the roundabout to follow our route."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Slow down and yield to the crossing semi-truck as it traverses our path."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate and yield to the crossing truck entering the roundabout across our path, while preparing to turn left to follow our route."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate to yield to the crossing truck in the roundabout ahead before continuing straight along our route."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Brake firmly to yield to the crossing semi-truck traversing our path through the roundabout."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Brake and stop before the crosswalk to yield to the crossing truck."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Stop and yield to the crossing truck in the roundabout as it crosses our path."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Decelerate and yield to the truck crossing the intersection ahead."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Brake and yield to the truck circulating across our path in the roundabout."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Decelerate and yield to the crossing truck in the roundabout as it blocks our path."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate and yield to the crossing truck in the roundabout to follow our route."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Decelerate to yield to the large truck circulating across our path in the roundabout."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Decelerate on approach to the roundabout to yield to the large truck circulating across our path."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Decelerate to yield to the crossing truck in the roundabout before entering to follow our route."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate while circulating the roundabout to yield to the semi-truck circulating across our path."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Accelerate and proceed through the roundabout exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Proceed through the roundabout and take the exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Accelerate and proceed through the roundabout to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Accelerate through the roundabout exit and take the exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Proceed through the roundabout and take the exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Accelerate and steer right through the roundabout to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Accelerate and proceed through the roundabout to exit the circle to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Bear right at the fork to follow our route, as the truck ahead has cleared our path."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Bear right at the road fork to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Accelerate and proceed through the roundabout exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Accelerate and proceed through the roundabout exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Proceed along the roundabout exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Accelerate and proceed through the roundabout exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Decelerate to yield to the large truck circulating across our path in the roundabout."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Proceed into the roundabout and take the exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Proceed through the roundabout to follow our route toward the exit, as the crossing truck has cleared our path."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Proceed through the roundabout to take the second exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Proceed into and navigate the roundabout to take the second exit to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the crossing truck has cleared our path."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Proceed through the roundabout to take the third exit to follow our route, as the crossing truck has cleared our path."}

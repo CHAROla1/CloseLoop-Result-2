@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Accelerate and proceed forward along the ramp to follow our route, as the lead vehicle pulls away."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Accelerate and proceed forward along the terminal access lane as the lead vehicle pulls away and clears our path."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Accelerate forward to follow the departing lead vehicle as it moves ahead."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Accelerate forward along the access road to follow our route, as the lead vehicle ahead moves forward and clears our immediate path."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Accelerate and steer left to follow our route, as the lead vehicle has pulled ahead and cleared our path."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Accelerate and steer left to merge into the through lane and bypass the stationary vehicle ahead, as it is stopped and blocking our path."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Accelerate forward and proceed along the access road as the lead vehicle pulls away and clears our path."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Accelerate forward along the roadway to follow our route, as the lead vehicle pulls away and our path is clear."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Accelerate and proceed forward in our lane as the lead vehicle pulls away and traffic ahead resumes moving."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Accelerate forward to follow the lead vehicle as it departs and pulls away."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Accelerate forward in our lane as the lead vehicle ahead moves forward and clears our path."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Accelerate forward in our lane to follow the departing lead vehicle as it pulls away."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Accelerate forward to follow the departing lead vehicle as it pulls away."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Accelerate forward along our lane as the lead vehicle ahead begins moving and opens a gap."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Accelerate forward along our lane as the pedestrian has cleared our path onto the sidewalk and the lead vehicle pulls away."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Decelerate to a stop behind the stationary lead vehicle as traffic ahead is queued."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Accelerate and proceed along the roadway as the lead vehicle pulls away and our lane clears."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "The lead vehicle ahead has begun braking, so decelerate to maintain a safe following distance."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Decelerate to a stop in our lane as the lead vehicle slows down and stops ahead in the queue."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Continue straight along the roadway to follow our route, as we have cleared the pedestrian crossing."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Continue decelerating to a stop as the lead vehicle ahead is stationary in our lane."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Continue straight along the roadway to follow our route, keeping a safe gap behind the lead vehicle ahead."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Brake to a stop to yield to a pedestrian crossing our path from the right."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Decelerate and steer right to pull over and stop, as a pedestrian is crossing the roadway from the right."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate to a stop and wait for the stationary pedestrian crossing our path."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Decelerate to a stop behind the stationary vehicle ahead as it is stopped in our lane."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Stop and wait to yield to the pedestrian crossing our path from the right."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Decelerate to come to a stop in the rightmost lane as the lead vehicle ahead slows and stops for the red traffic light."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to a stop as a pedestrian with a red bag enters the roadway directly ahead of us."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Stop and wait for the stationary vehicle ahead to depart."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Brake to a stop as pedestrians are crossing the roadway directly in front of us."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Continue decelerating to a stop as the lead vehicle ahead in our lane has stopped in our path."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Decelerate to a stop along the roadside to yield to the pedestrian pushing a red shopping cart across our path."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead vehicle ahead."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate to a stop as a pedestrian pushing a red suitcase is crossing the roadway directly ahead of us."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Decelerate to a stop along the right edge of the roadway to yield to the pedestrian walking with luggage along the roadside."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Decelerate to a stop as the lead vehicle ahead is stationary in our lane."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Decelerate and hold reduced speed to maintain safe clearance from the pedestrian walking along the right edge of the lane."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate to a stop and wait along the right side of the roadway to yield to the pedestrian crossing in front of us."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Decelerate along the exit ramp to come to a stop at the terminal stop line, as the lead vehicle ahead is braking."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Decelerate along the right side of the roadway to yield to a pedestrian pushing a stroller along the road edge."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Decelerate to a stop and wait as a pedestrian pushing a suitcase is walking along the right edge of the roadway."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Accelerate and merge into the right lane, as the preceding vehicle has pulled away to open a clear gap."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Accelerate and merge left into the through lane as the adjacent lane is clear."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Accelerate to proceed along the roadway as the pedestrian has cleared our path."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Accelerate forward along the roadway to follow our route, as the pedestrian has cleared our immediate path."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Accelerate along the roadway to resume cruising speed as the pedestrian has cleared our path."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Accelerate and steer left to merge onto the highway to follow our route, as the pedestrian has cleared our path."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Accelerate and merge left into the adjacent through lane to follow our route, as the pedestrian has cleared our path."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Accelerate to merge into the through lanes to follow our route, as the pedestrian has cleared our path."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "<N like the left none to stay on our straight route, as the road ahead is clear towards between like the left before the fork; keep room behind the white car ahead."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Accelerate and merge left into the adjacent through lane to follow our route, as the overtaking vehicle has cleared our left side."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Accelerate and merge left onto the highway to follow our route."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Accelerate and merge into the adjacent left lane to follow our route, as the passing vehicle has cleared our path."}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "Accelerate and merge left onto the expressway to follow our route, as the passing vehicle has cleared our path."}

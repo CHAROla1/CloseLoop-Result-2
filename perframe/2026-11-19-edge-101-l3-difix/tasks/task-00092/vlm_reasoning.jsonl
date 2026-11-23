@@ -1,0 +1,85 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle slows down for the upcoming curve."}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Brake heavily to maintain a safe following distance as the lead vehicle ahead brakes heavily for the road work zone."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Proceed straight through the intersection to follow our route, while decelerating to maintain safe headway behind the slowing lead vehicle."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead brakes."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to a stop behind the stationary truck blocking our lane."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Brake firmly to a stop behind the stationary truck obstructing our lane ahead."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead vehicle and prepare to turn left at the upcoming intersection to follow our route."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Brake firmly to maintain a safe following distance, as the preceding vehicle ahead has braked for a stationary truck and queued traffic."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower lead vehicle."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Brake firmly to yield to the oncoming truck on the narrow roadway and maintain a safe following distance as the truck ahead slows down."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Brake firmly to maintain a safe following distance as the lead vehicle ahead decelerates to pull over to the right."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Proceed straight through the intersection to follow our route, decelerating to maintain safe following distance behind the slowing lead vehicle."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Decelerate to come to a stop behind the stationary truck ahead in our lane."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead brakes and slows down."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead brakes."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Slow down to maintain safe clearance as we pass the stationary utility truck parked on the right side of the road."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead vehicle as we approach the intersection to continue straight along our route."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the lead vehicle and navigate the sharp curve."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead truck slows down in our lane."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "Brake firmly to yield to the oncoming bus at the narrow roadway."}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Slow down to yield to the oncoming bus while approaching the fork to follow our route."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead vehicle ahead on the road."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing lead vehicle and prepare to turn left at the upcoming intersection to follow our route."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead slows down for the upcoming intersection."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Brake firmly to maintain a safe following distance as the lead truck ahead decelerates and stops in our lane."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Brake firmly to maintain a safe following distance as a large truck is occupying our lane ahead."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead vehicle ahead brakes and slows down."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Brake firmly to maintain a safe following distance as the lead vehicle slows down to pull over to the right."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Decelerate to maintain safe clearance while passing an oncoming bus on the narrow roadway, as a stationary truck and roadside debris restrict our lane width."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Decelerate to a stop behind the stationary utility vehicle to yield to oncoming traffic before overtaking."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Decelerate to a stop and wait behind the stationary truck blocking our lane."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Decelerate to come to a stop behind the stationary truck ahead in our lane."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing truck ahead."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Decelerate to a stop behind the stationary truck blocking our lane."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Decelerate to maintain safe clearance as a stationary truck and its cargo are stopped on the right shoulder."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Decelerate to maintain a safe following distance as the lead truck ahead slows down."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slowing utility truck ahead as it approaches the intersection."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slower lead truck ahead."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Decelerate to maintain a safe following distance behind the slow-moving utility truck ahead."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Accelerate and proceed through the junction to follow our route, as the truck ahead has cleared our path."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "Accelerate and steer left to pass the stationary truck, as the overtakingForkYes vehicle has cleared our path."}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Decelerate and hold our lane to yield to the overtaking vehicle on our left before changing lanes to bypass the stationary truck."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Accelerate and proceed straight through the fork to follow our route, as the overtaking vehicle has cleared our path."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Accelerate and merge into the travel lane to pass the stopped truck, as the overtaking vehicle has cleared our path."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Accelerate and steer left around the stationary truck to pass it, as the overtaking Vehicles have cleared our left side."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Accelerate and steer left to bypass the stationary vehicle ahead as the passing vehicle clears our path."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Accelerate and proceed through the junction to follow our route, as the lead vehicle pulls away."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Accelerate and proceed through the fork to follow our route, as the overtaking vehicle on our left has cleared our path."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Accelerate and steer left around the stationary truck to pass it, as the passing vehicle has cleared our path."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Continue straight through the road fork to follow our route, as the truck ahead has pulled over to the right shoulder."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Accelerate and steer left to bypass the stationary utility vehicle on the right as the overtaking vehicle has cleared our path."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Accelerate and proceed along the roadway as the oncoming vehicle clears our path."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Continue straight through the fork to follow our route, bypassing the right exit."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Proceed straight through the fork to follow our route, as the lead vehicle has cleared our lane by turning right."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Proceed straight through the intersection to follow our route, as the lead vehicle has cleared our path."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Accelerate and proceed along the roadway to follow our route, as the lead vehicle has cleared our path into the right turn."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Accelerate and proceed through the fork to follow our route, as the preceding vehicle has cleared our lane."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Continue straight through the fork to follow our route, as the lead vehicle has cleared our lane."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Accelerate and merge into the roadway as the passing vehicle has cleared our path, while following the curve of the road."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Accelerate and steer left to pass the parked truck and return to our lane, as the oncoming vehicle has cleared our path."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Turn left at the intersection to follow our route, as the roadway is clear of conflicting traffic."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Continue straight through the fork to follow our route, as the truck on the right has moved clear of our lane."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Proceed straight through the intersection to follow our route, as our path is clear."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Proceed straight through the road fork to follow our route, as the truck on our right is clearing our path."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Proceed straight through the fork to follow our route."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Continue straight through the road fork to follow our route, as the preceding truck has cleared our lane."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Accelerate and proceed straight through the intersection to follow our route, as the lead vehicle has cleared our path."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Proceed straight past the road fork to follow our route, as the preceding vehicle has cleared our lane."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 9900001, "query_time_us": 10000001, "reasoning_text": "<NOMINAL>"}

@@ -1,0 +1,84 @@
+{"now_time_us": 1500001, "query_time_us": 1600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 1600001, "query_time_us": 1700001, "reasoning_text": "Decelerate to a stop behind the lead vehicle for the red traffic light ahead."}
+{"now_time_us": 1700001, "query_time_us": 1800001, "reasoning_text": "Continue slowing to stop behind the braking car in our lane and for the red light ahead, as the previous lead vehicle has cleared into the left lane."}
+{"now_time_us": 1800001, "query_time_us": 1900001, "reasoning_text": "Decelerate to stop behind the queued lead vehicle for the red traffic light ahead."}
+{"now_time_us": 1900001, "query_time_us": 2000001, "reasoning_text": "Decelerate to stop behind the queued lead vehicle for the red traffic light ahead."}
+{"now_time_us": 2000001, "query_time_us": 2100001, "reasoning_text": "Decelerate to a stop behind the queued lead vehicle for the red traffic light ahead."}
+{"now_time_us": 2100001, "query_time_us": 2200001, "reasoning_text": "Decelerate to a stop behind the queued lead vehicle for the red traffic light ahead."}
+{"now_time_us": 2200001, "query_time_us": 2300001, "reasoning_text": "Decelerate to stop behind the lead vehicle for the red traffic light ahead."}
+{"now_time_us": 2300001, "query_time_us": 2400001, "reasoning_text": "Decelerate to come to a stop behind the lead vehicle for the red traffic light at the intersection ahead."}
+{"now_time_us": 2400001, "query_time_us": 2500001, "reasoning_text": "Continue decelerating to stop behind the queued vehicle at the red traffic light, as the previous lead vehicle has cleared our lane."}
+{"now_time_us": 2500001, "query_time_us": 2600001, "reasoning_text": "Change lanes to the right to prepare for our upcoming right turn, as the adjacent lane is clear."}
+{"now_time_us": 2600001, "query_time_us": 2700001, "reasoning_text": "Change lanes to the right to bypass the slowing queue ahead and position for our route, as the adjacent lane is clear."}
+{"now_time_us": 2700001, "query_time_us": 2800001, "reasoning_text": "Change lanes to the right into the right-turn lane to follow our route, as the right-turn lane opens up ahead of the intersection."}
+{"now_time_us": 2800001, "query_time_us": 2900001, "reasoning_text": "Change lanes to the right into the dedicated turn lane to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 2900001, "query_time_us": 3000001, "reasoning_text": "Change lanes to the right into the open adjacent lane to bypass the slowing queue ahead."}
+{"now_time_us": 3000001, "query_time_us": 3100001, "reasoning_text": "Steer right into the adjacent right-turn lane to prepare for our upcoming turn, as the lane is clear."}
+{"now_time_us": 3100001, "query_time_us": 3200001, "reasoning_text": "Change lanes to the right to bypass the stopped queue and continue straight on our route."}
+{"now_time_us": 3200001, "query_time_us": 3300001, "reasoning_text": "Change lanes to the right into the dedicated turn lane to follow our route, as the adjacent lane is clear."}
+{"now_time_us": 3300001, "query_time_us": 3400001, "reasoning_text": "Change lanes to the right into the dedicated right-turn lane to follow our route."}
+{"now_time_us": 3400001, "query_time_us": 3500001, "reasoning_text": "Change lanes to the right into the dedicated right-turn lane to follow our route."}
+{"now_time_us": 3500001, "query_time_us": 3600001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 3600001, "query_time_us": 3700001, "reasoning_text": "Decelerate to a stop behind the queued vehicle ahead for the red traffic light."}
+{"now_time_us": 3700001, "query_time_us": 3800001, "reasoning_text": "Decelerate to a stop behind the queued lead vehicle for the red traffic light ahead."}
+{"now_time_us": 3800001, "query_time_us": 3900001, "reasoning_text": "Decelerate to a stop behind the queued lead vehicle at the red traffic light ahead."}
+{"now_time_us": 3900001, "query_time_us": 4000001, "reasoning_text": "Decelerate to a stop behind the queued vehicle in our lane for the red traffic light ahead."}
+{"now_time_us": 4000001, "query_time_us": 4100001, "reasoning_text": "Continue decelerating to stop behind the lead vehicle for the red traffic light ahead."}
+{"now_time_us": 4100001, "query_time_us": 4200001, "reasoning_text": "Decelerate to a stop behind the queued lead vehicle for the red traffic light at the intersection ahead."}
+{"now_time_us": 4200001, "query_time_us": 4300001, "reasoning_text": "Decelerate to come to a stop behind the lead vehicle as it brakes for the red traffic light ahead."}
+{"now_time_us": 4300001, "query_time_us": 4400001, "reasoning_text": "Change lanes to the right to bypass the stationary queue in our lane and position for our upcoming turn, as the adjacent lane is clear."}
+{"now_time_us": 4400001, "query_time_us": 4500001, "reasoning_text": "Change lanes to the right to bypass the stopped queue in our lane and follow our route, as the adjacent lane is clear."}
+{"now_time_us": 4500001, "query_time_us": 4600001, "reasoning_text": "Change lanes to the right to bypass the stopped queue and position for our route, as the adjacent lane is clear."}
+{"now_time_us": 4600001, "query_time_us": 4700001, "reasoning_text": "Change lanes to the right to bypass the queued traffic ahead and prepare for our upcoming right turn."}
+{"now_time_us": 4700001, "query_time_us": 4800001, "reasoning_text": "Change lanes to the right into the dedicated turn lane to prepare for our upcoming right turn."}
+{"now_time_us": 4800001, "query_time_us": 4900001, "reasoning_text": "Change lanes to the right to bypass the stopped queue and follow our route."}
+{"now_time_us": 4900001, "query_time_us": 5000001, "reasoning_text": "Change lanes to the right into the dedicated right-turn lane to follow our route, as the target lane is clear."}
+{"now_time_us": 5000001, "query_time_us": 5100001, "reasoning_text": "Change lanes to the right to enter the right-turn lane in preparation for our upcoming route turn."}
+{"now_time_us": 5100001, "query_time_us": 5200001, "reasoning_text": "Change lanes to the right to bypass the queued lead vehicle and position for our route, as the adjacent lane is clear."}
+{"now_time_us": 5200001, "query_time_us": 5300001, "reasoning_text": "Change lanes to the right to follow our route and bypass the slowing queue ahead, as the adjacent lane has opened up."}
+{"now_time_us": 5300001, "query_time_us": 5400001, "reasoning_text": "Change lanes to the right into the dedicated turn lane to follow our route."}
+{"now_time_us": 5400001, "query_time_us": 5500001, "reasoning_text": "Change lanes to the right to bypass the stationary queue in our lane and prepare for our upcoming right turn."}
+{"now_time_us": 5500001, "query_time_us": 5600001, "reasoning_text": "Move into the right-turn lane to prepare for our upcoming right turn to follow our route."}
+{"now_time_us": 5600001, "query_time_us": 5700001, "reasoning_text": "Change lanes to the right to bypass the slowing lead vehicle and queue at the red traffic light."}
+{"now_time_us": 5700001, "query_time_us": 5800001, "reasoning_text": "Decelerate to stop at the intersection stop line for the red traffic light to follow our route straight."}
+{"now_time_us": 5800001, "query_time_us": 5900001, "reasoning_text": "<NOMINAL>"}
+{"now_time_us": 5900001, "query_time_us": 6000001, "reasoning_text": "Decelerate and stop behind the queued lead vehicle at the red traffic light to continue straight along our route."}
+{"now_time_us": 6000001, "query_time_us": 6100001, "reasoning_text": "Change lanes to the right to bypass the slowing lead vehicle and queue in our lane."}
+{"now_time_us": 6100001, "query_time_us": 6200001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 6200001, "query_time_us": 6300001, "reasoning_text": "Change lanes to the right into the dedicated right-turn lane to prepare for our upcoming right turn to follow our route."}
+{"now_time_us": 6300001, "query_time_us": 6400001, "reasoning_text": "Change lanes to the right to bypass the stopped queue in our lane and follow our route straight."}
+{"now_time_us": 6400001, "query_time_us": 6500001, "reasoning_text": "Decelerate to a stop before the intersection stop line for the red traffic light."}
+{"now_time_us": 6500001, "query_time_us": 6600001, "reasoning_text": "Steer into the right lane to bypass the queued traffic ahead."}
+{"now_time_us": 6600001, "query_time_us": 6700001, "reasoning_text": "Change lanes to the right to bypass the queued vehicle ahead and position for our route."}
+{"now_time_us": 6700001, "query_time_us": 6800001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light ahead, preparing to continue straight along our route."}
+{"now_time_us": 6800001, "query_time_us": 6900001, "reasoning_text": "Change lanes to the right to bypass the slowing lead vehicle and queued traffic ahead."}
+{"now_time_us": 6900001, "query_time_us": 7000001, "reasoning_text": "Change lanes to the right to bypass the queued vehicles ahead, as the adjacent lane is clear."}
+{"now_time_us": 7000001, "query_time_us": 7100001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light while following our route straight through the intersection."}
+{"now_time_us": 7100001, "query_time_us": 7200001, "reasoning_text": "Change lanes to the right to bypass the queued vehicles and follow our route, as the adjacent lane has cleared."}
+{"now_time_us": 7200001, "query_time_us": 7300001, "reasoning_text": "Decelerate to stop at the intersection stop line for the red traffic light."}
+{"now_time_us": 7300001, "query_time_us": 7400001, "reasoning_text": "Decelerate to a stop and wait at the stop line for the red traffic light to turn green."}
+{"now_time_us": 7400001, "query_time_us": 7500001, "reasoning_text": "Change lanes to the right to bypass the queued vehicle ahead."}
+{"now_time_us": 7500001, "query_time_us": 7600001, "reasoning_text": "Decelerate to come to a stop before the intersection stop line for the red traffic light."}
+{"now_time_us": 7600001, "query_time_us": 7700001, "reasoning_text": "Change lanes to the right to bypass the queued traffic and position for our route, as the adjacent lane has opened up and is clear."}
+{"now_time_us": 7700001, "query_time_us": 7800001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 7800001, "query_time_us": 7900001, "reasoning_text": "Decelerate to come to a stop before the intersection crosswalk for the red traffic light."}
+{"now_time_us": 7900001, "query_time_us": 8000001, "reasoning_text": "Decelerate to a stop before the intersection crosswalk for the red traffic light."}
+{"now_time_us": 8000001, "query_time_us": 8100001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light."}
+{"now_time_us": 8100001, "query_time_us": 8200001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 8200001, "query_time_us": 8300001, "reasoning_text": "Decelerate to a stop behind the queued vehicle at the intersection for the red traffic light."}
+{"now_time_us": 8300001, "query_time_us": 8400001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 8400001, "query_time_us": 8500001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 8500001, "query_time_us": 8600001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light, planning to continue straight through the intersection to follow our route."}
+{"now_time_us": 8600001, "query_time_us": 8700001, "reasoning_text": "Stop and wait at the stop line for the red traffic light to follow our route straight through the intersection."}
+{"now_time_us": 8700001, "query_time_us": 8800001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light to follow our route straight through the intersection."}
+{"now_time_us": 8800001, "query_time_us": 8900001, "reasoning_text": "Change lanes to the right into the dedicated turn lane to prepare for the upcoming right turn to follow our route."}
+{"now_time_us": 8900001, "query_time_us": 9000001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 9000001, "query_time_us": 9100001, "reasoning_text": "Decelerate to come to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 9100001, "query_time_us": 9200001, "reasoning_text": "Decelerate to a stop and wait at the stop line for the red traffic light to turn green."}
+{"now_time_us": 9200001, "query_time_us": 9300001, "reasoning_text": "Decelerate to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 9300001, "query_time_us": 9400001, "reasoning_text": "Stop and wait at the stop line for the red traffic light to turn green."}
+{"now_time_us": 9400001, "query_time_us": 9500001, "reasoning_text": "Decelerate to come to a stop before the crosswalk for the red traffic light ahead."}
+{"now_time_us": 9500001, "query_time_us": 9600001, "reasoning_text": "Decelerate to stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 9600001, "query_time_us": 9700001, "reasoning_text": "Decelerate to a stop before the stop line for the red traffic light ahead, intending to continue straight through the intersection to follow our route."}
+{"now_time_us": 9700001, "query_time_us": 9800001, "reasoning_text": "Decelerate to a stop at the stop line for the red traffic light ahead."}
+{"now_time_us": 9800001, "query_time_us": 9900001, "reasoning_text": "Decelerate to a stop and wait at the stop line for the red traffic light to turn green before proceeding straight to follow our route."}
