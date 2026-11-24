@@ -18,5 +18,12 @@
     "ego_trajectory": "{task_id}/ego_trajectory.csv",
     "metrics": "{task_id}/metrics.parquet",
     "vlm_reasoning": "{task_id}/vlm_reasoning.jsonl"
+  },
+  "new_metrics": {
+    "enabled": true,
+    "runtime_root": "/mnt/data/WM_Group/tang-workspace/alpasim",
+    "max_gap_s": 0.25,
+    "min_thw_speed_mps": 0.5,
+    "max_heading_deg": 30
   }
 }

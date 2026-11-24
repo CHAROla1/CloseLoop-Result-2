@@ -1,0 +1,152 @@
+{
+  "version": "asl-metrics-v1",
+  "groups": {
+    "no_traffic_updates": {
+      "long_acc_abs_p95": {
+        "unit": "m/s²",
+        "valid": 101,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 101,
+          "mean": 2.332567344030531,
+          "median": 2.065893673896789,
+          "p95": 4.809678053855896,
+          "minimum": 0.5914194673299789,
+          "maximum": 5.6607719421386715
+        }
+      },
+      "lat_acc_abs_p95": {
+        "unit": "m/s²",
+        "valid": 101,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 101,
+          "mean": 0.06144357444315148,
+          "median": 0.048390016518533197,
+          "p95": 0.15638417378067962,
+          "minimum": 2.296507745995759e-05,
+          "maximum": 0.31035386323928815
+        }
+      },
+      "yaw_acc_abs_max": {
+        "unit": "rad/s²",
+        "valid": 101,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 101,
+          "mean": 1.0763678786040534,
+          "median": 0.547419548034668,
+          "p95": 4.983353614807129,
+          "minimum": 0.10356058180332184,
+          "maximum": 6.122599124908447
+        }
+      },
+      "long_jerk_rms": {
+        "unit": "m/s³",
+        "valid": 101,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 101,
+          "mean": 5.538325890989885,
+          "median": 5.330063427194091,
+          "p95": 9.826572887288828,
+          "minimum": 1.8658228781342525,
+          "maximum": 13.540252891110775
+        }
+      },
+      "lat_jerk_rms": {
+        "unit": "m/s³",
+        "valid": 101,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 101,
+          "mean": 0.485228301867416,
+          "median": 0.423824981540767,
+          "p95": 1.1283986415279788,
+          "minimum": 0.0010252880693198904,
+          "maximum": 2.010431713028429
+        }
+      },
+      "duration_s": {
+        "unit": "s",
+        "valid": 101,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 101,
+          "mean": 8.340594059405941,
+          "median": 8.3,
+          "p95": 8.4,
+          "minimum": 7.5,
+          "maximum": 8.4
+        }
+      },
+      "body_gap_min": {
+        "unit": "m",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 101,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "following_thw_min": {
+        "unit": "s",
+        "valid": 0,
+        "estimated": 58,
+        "invalid": 0,
+        "not_applicable": 43,
+        "not_annotated": 0,
+        "distribution": {
+          "n": 58,
+          "mean": 1.826676201729411,
+          "median": 1.748742127112613,
+          "p95": 4.716369926606505,
+          "minimum": 0.0,
+          "maximum": 8.416255064512283
+        }
+      },
+      "rear_long_acc_min": {
+        "unit": "m/s²",
+        "valid": 0,
+        "estimated": 0,
+        "invalid": 0,
+        "not_applicable": 0,
+        "not_annotated": 101,
+        "distribution": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "minimum": null,
+          "maximum": null
+        }
+      }
+    }
+  },
+  "tasks": 101
+}
